@@ -56,3 +56,14 @@ site, the second contains a list of blog articles.
 generate tables of content.
  - `setup.py` contains instructions on how to install the gitoyen cli and
 the dependencies for running the dev environment.
+
+
+## Liste
+* https://listes.gitoyen.net/wws/info/latisseuse
+
+## Architecture
+* http://pub.sebian.fr/pub/IMG_20150329_152909.jpg
+* http://pub.sebian.fr/pub/IMG_20150329_152916.jpg
+
+
+
