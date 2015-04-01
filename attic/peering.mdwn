@@ -1,0 +1,20 @@
+# Gitoyen
+
+Gitoyen est un opérateur courtois et ouvert. Notre politique de
+peering est ouverte elle aussi : Il vous suffit de nous demander par
+mail à peering (at) gitoyen (dot) net.
+
+Nous avons déjà une bonne centaine d'accords de peering. Vous pouvez aussi utiliser l'outil Looking Glass ou voir la base RPSL de nos peerings dans la base du RIPE-NCC.
+
+## Comment établir un peering avec Gitoyen ?
+
+Pour monter un peering avec Gitoyen, vous aurez besoin des informations techniques suivantes :
+
+* Notre numéro de système autonome est AS20766
+* Nous annonçons l'AS-Macro AS-GITOYEN.
+* l'email du NOC est noc (at) gitoyen (dot) net.
+* Nous n'utilisons pas la signature MD5 des sessions BGP. Si vous vous demandez pourquoi, rendez-vous dans la RFC 2385 chapitre 4.
+
+## Points de peering
+
+Nos points de peering sont listés sur la page de l'AS20766 sur [peeringdb](https://www.peeringdb.com/view.php?asn=20766)

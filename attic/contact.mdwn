@@ -1,0 +1,23 @@
+# Contact
+
+## Par courrier électronique
+
+En envoyant un courrier électronique à l'adresse suivante:
+
+>      contact (at) gitoyen (dot) net
+
+Bien entendu en remplaçant l'`(at)` par un arobase et le `(dot)` par un point.
+
+## Par messagerie instantanée
+
+Gitoyen dispose d'un salon de discussion relayé par Internet (aussi appelé IRC)
+
+>      IRC #gitoyen sur le réseau irc.geeknode.net
+
+## Par courrier
+
+Ou par voie postale, à notre adresse.
+
+>      Gitoyen
+>      21 ter rue Voltaire
+>      75011 Paris

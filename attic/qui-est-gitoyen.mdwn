@@ -1,0 +1,33 @@
+# Qui est gitoyen ?
+
+Gitoyen est depuis Janvier 2012 une association loi 1901. Elle a pour
+but de faciliter l'émergence et l'existence de petits opérateurs
+réseaux, en particulier dans le but d'acentrer l'Internet.
+
+Cette association fait suite à la volonté de mutualisation d'un
+opérateur Internet entre ces structures ainsi qu'une volonté de créer
+une espace de partage de la connaissance et du savoir autour de la
+fabrication de l'Internet en dehors du champ mercantile.
+
+L'association Gitoyen est ouverte aux structures qui partageraient sa
+démarche. [Si vous voulez nous rejoindre, contactez-nous.](contact)
+
+## Services
+
+Dans ce cadre Gitoyen propose des services à ses membres mais aussi à de potentiels clients :
+
+* Transit Internet ;
+* Obtention de ressources Internet (LIR) ;
+* Hébergement d'équipement au Téléhouse 2.
+
+Gitoyen propose aussi à ses membres de bénéficier de son
+infrastructure réseau (utilisation de l'AS20766 et des équipements
+réseaux).
+
+## Références
+
+A voir aussi :
+
+* [L'histoire de Gitoyen](histoire)
+* [La Foire aux questions de Gitoyen](faq)
+* [Les statuts de Gitoyen](association)

@@ -1,0 +1,20 @@
+# Rejoindre Gitoyen
+
+Gitoyen est depuis Janvier 2012 une association. Elle a pour but de
+faciliter l'émergence et l'existence de petits opérateurs réseaux, en
+particulier dans le but d'acentrer l'Internet.
+
+Cette association fait suite à la volonté de mutualisation d'un
+opérateur Internet entre ces structures ainsi qu'une volonté de créer
+une espace de partage de la connaissance et du savoir autour de la
+fabrication de l'Internet en dehors du champ mercantile.
+
+Aussi l'association Gitoyen, propose :
+
+* du transit
+* l'obtention de ressources Internet (LIR)
+* de l'hébergement d'équipements réseaux (actuellement au TH2).
+
+Si vous souhaitez rejoindre gitoyen, [Contactez-nous](contact)
+
+[Voir aussi l'histoire de Gitoyen](histoire)

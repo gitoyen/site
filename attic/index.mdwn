@@ -1,0 +1,29 @@
+**Gitoyen** est un opérateur Internet créé en février 2001.
+
+▶ [qui est gitoyen](qui-est-gitoyen)
+
+Issu de la volonté d'acteurs associatifs et d'entreprises de
+mutualiser les coûts d'accès à l'Internet des opérateurs, Gitoyen est
+un opérateur Internet indépendant, fondé sur une base non-marchande et
+mutualiste.
+
+▶ [l'histoire de Gitoyen](histoire)
+
+Capable de fournir à ses membres un service réseau de qualité à
+travers la redondance des équipements de transit, la négociation
+d'accords de d'échange de trafic inter-opérateurs et la mutualisation
+des moyens et techniques, Gitoyen base son infrastructure réseau sur
+les Logiciels libres, qu'ils soient de bureautique ou de routage.
+
+Défendant une indépendance technique forte, Gitoyen est un LIR (Local
+Internet Registry), et dispose donc de ses propres adresses IP, de
+numéros de systèmes autonomes (AS) pour pouvoir échanger ses routes
+avec d'autres opérateurs de toute taille, et dispose de ses propres
+baies dans des centres d'hébergement neutres.
+
+▶ [le fonctionnement technique de Gitoyen](technique)
+
+Lieu d'échange et de Recherche et développement en logiciels libres
+destinés aux opérateurs, Gitoyen est donc aussi un laboratoire
+d'expérimentations destiné aux développeurs et administrateurs de
+solutions libres.
