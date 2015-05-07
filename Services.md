@@ -8,7 +8,7 @@ Gitoyen fourni plusieurs services à ses membres et ses clients.
 
 Gitoyen est un opérateur Internet disposant de ses propres liens de
 communication avec le reste d'Internet. Dans ce cadre nous sommes en mesures de
-fournir une vue comlète d'Internet (du **Transit**)  à nos membres ou nos clients.
+fournir une vue complète d'Internet (du **Transit**)  à nos membres ou nos clients.
 
 ## Hébergement d'équipement
 
@@ -22,7 +22,7 @@ et nos clients.
 ## LIR / Obtention de ressources Internet
 
 Gitoyen est un *registre local d'Internet* (LIR). Cela lui donne la possibilité
-d'assigner des ressouces de type Bloc d'adresses IP ou AS.
+d'assigner des ressources de type Bloc d'adresses IP ou AS.
 
 Il y a deux types de ressources facturés :
 
@@ -30,7 +30,7 @@ Il y a deux types de ressources facturés :
   impose un facturation spécifique (Les ressources **Provider Independant
   (PI)**).
 
-* Les autres ne nécéssitant pas de contrat spécifique. (**Provider Aggregate
+* Les autres ne nécessitant pas de contrat spécifique. (**Provider Aggregate
   (PA)**, **Autonomous System (AS)**.
 
 
@@ -57,14 +57,14 @@ TODO: ajouter le pdf ou bien faire un tableau html
 Pour une petite structure nécessitant du réseau, il vous sera nécessaire
 d'avoir vos propres blocs d'adresses. Pour cela il vous suffit d'adhérer et de
 prendre Un ressource pour un bloc d'adresses IPv4, un autre pour un bloc
-d'adresses IPv6 et évenetuellement une dernière pour avoir un AS, selon les besoins.
+d'adresses IPv6 et éventuellement une dernière pour avoir un AS, selon les besoins.
 
 ### Livraison réseau via Gitoyen
 
 Pour avoir une livraison chez Gitoyen (par exemple en amenant un câble, ou en
 utilisant une vm d'infra chez Gitoyen) alors cela signifie payer le transit et
 l'infra. de commutation.  Remarque: la vm d'infra est à la discrétion du membre
-mais n'a pour but que d'établir un lien ethernet "virtuel" entre Gitoyen et le
+mais n'a pour but que d'établir un lien Ethernet "virtuel" entre Gitoyen et le
 réseau du membre (via vpn, gre, ipsec, etc.).
 
 ### Annoncer son réseau avec les routeurs de Gitoyen
