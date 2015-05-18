@@ -1,3 +1,4 @@
 pelican
 fabric
 markdown
+livereload
