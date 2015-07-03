@@ -1,4 +1,6 @@
 pelican
-fabric
 markdown
+ghp-import
+fabric
+path.py
 livereload
