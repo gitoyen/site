@@ -33,5 +33,12 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = 10
 
+ARTICLE_PATHS = ['blog']
+ARTICLE_URL = 'blog/{slug}.html'
+
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
+
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
