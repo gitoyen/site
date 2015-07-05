@@ -19,12 +19,6 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file ', '#'),)
-
 THEME = "theme"
 
 # Social widget
@@ -35,10 +29,16 @@ DEFAULT_PAGINATION = 10
 
 ARTICLE_PATHS = ['blog']
 ARTICLE_URL = 'blog/{slug}.html'
+ARTICLE_SAVE_AS = 'blog/{slug}.html'
 
 PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = '{slug}.html'
 
+INDEX_SAVE_AS = 'blog.html'
 
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ['extract_toc']
+
+MD_EXTENSIONS = (['toc'])
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
