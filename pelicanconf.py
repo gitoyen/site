@@ -2,6 +2,10 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+import sys
+sys.path.append('.')
+import filters
+
 AUTHOR = u'gitoyen'
 SITENAME = u'Gitoyen'
 SITEURL = ''
@@ -19,6 +23,8 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+JINJA_FILTERS = {'is_active': filters.is_active}
+
 THEME = 'theme'
 
 DEFAULT_PAGINATION = 10
@@ -31,7 +37,6 @@ PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = '{slug}.html'
 
 INDEX_SAVE_AS = 'blog.html'
-
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['extract_toc']
 
