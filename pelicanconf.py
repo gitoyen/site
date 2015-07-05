@@ -19,11 +19,7 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-THEME = "theme"
-
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+THEME = 'theme'
 
 DEFAULT_PAGINATION = 10
 
@@ -36,7 +32,7 @@ PAGE_SAVE_AS = '{slug}.html'
 
 INDEX_SAVE_AS = 'blog.html'
 
-PLUGIN_PATHS = ["plugins"]
+PLUGIN_PATHS = ['plugins']
 PLUGINS = ['extract_toc']
 
 MD_EXTENSIONS = (['toc'])
