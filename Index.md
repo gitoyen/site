@@ -1,19 +1,20 @@
-* Gitoyen
- * Qui est Gitoyen
- * Nos valeurs
- * Histoire de l'asso
- * L'équipe
- * Règlement Interieur
- * On est membre de
- * Les membres
- * Les statuts
- * adhérer à l'asso
+* [-] Gitoyen
+ * [x] Qui est Gitoyen
+ * [x] Nos valeurs
+ * [x] Histoire de l'asso
+ * [x] L'équipe
+ * [ ] Règlement Interieur
+ * [-] On est membre de
+ * [x] Les membres
+ * [x] Les statuts
+ * [x] adhérer à l'asso
 
-* Services
- * Transit Internet
- * Hébergement d'équipement
- * LIR / Obtention de ressources Internet
- * Tarifs
+* [x] Services
+ * [x] Transit Internet
+ * [x] Hébergement d'équipement
+ * [x] LIR / Obtention de ressources Internet
+ * [x] Tarifs
+ * [x] Peering
 
 * Théorie / Pratique
  * Glossaire
@@ -21,9 +22,9 @@
  * Documentation / Tuto
  * Liens utiles
 
-* Contact
- * contact + urgence
- * Outils opérateurs
+* [x] Contact
+ * [x] contact + urgence
+ * [x] Outils opérateurs
 
 * Blog
  * CR d'AG
