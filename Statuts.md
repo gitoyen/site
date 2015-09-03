@@ -241,6 +241,4 @@ L'actif, s'il y a lieu, est dévolu par cette Assemblée à une ou plusieurs
 Associations ayant un objet similaire ou à tout établissement à but social ou
 culturel de son choix.
 
-
 > Fait à Paris le 21 octobre 2014 en 3 exemplaires originaux.
-
