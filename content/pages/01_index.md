@@ -1,4 +1,4 @@
-Title: Acceuil
+Title: Accueil
 url:
 save_as: index.html
 
