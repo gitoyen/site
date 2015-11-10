@@ -38,8 +38,13 @@ PAGE_SAVE_AS = '{slug}.html'
 
 INDEX_SAVE_AS = 'blog.html'
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['extract_toc']
+PLUGINS = ['pelican-toc']
 
-MD_EXTENSIONS = (['toc'])
+TOC = {
+    'TOC_HEADERS' : '^h[2]',
+    'TOC_RUN': 'true'
+}
+
+MD_EXTENSIONS = ([])
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

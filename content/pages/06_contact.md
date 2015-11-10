@@ -1,6 +1,5 @@
 Title: Contact
 
-[TOC]
 
 # Contact
 

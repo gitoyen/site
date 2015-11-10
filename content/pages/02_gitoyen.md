@@ -1,8 +1,6 @@
 Title: Gitoyen
 
-[TOC]
-
-# Qui est Gitoyen
+## Qui est Gitoyen
 
 Gitoyen est depuis Janvier 2012 une association loi 1901. Elle a pour
 but de faciliter l'émergence et l'existence de petits opérateurs
@@ -16,7 +14,7 @@ fabrication de l'Internet en dehors du champ mercantile.
 L'association Gitoyen est ouverte aux structures qui partageraient sa
 démarche.
 
-# Nos valeurs
+## Nos valeurs
 
 Notre participation à Gitoyen, sous forme de bénévolat, nous permet de :
 
@@ -24,16 +22,16 @@ Notre participation à Gitoyen, sous forme de bénévolat, nous permet de :
 * partager nos connaissances, nos expériences avec les autres bénévoles,
 * aider d'autres opérateurs sans but lucratif à faire de même.
 
-# Histoire de l'association
+## Histoire de l'association
 
-## La rencontre
+### La rencontre
 
 C'est lors de la Zelig Conf de 2001, réunion d'activistes et médias
 alternatifs œuvrant entre autre sur Internet, que se sont rencontrés
 Globenet, Placenet et Netaktiv, bien vite rejoint par FDN et Gandi, un
 nouveau bourgeon de l'Internet solidaire pouvait naître ...
 
-## L'objet connecté non identifié
+### L'objet connecté non identifié
 
 Depuis le temps qu'on en rêvait, nous autres qui croyions à un
 Internet qui serait d'abord un outil citoyen avant d'être un système
@@ -77,7 +75,7 @@ ne nécessite aucun apport extérieur. À l'image d'Internet tout entier,
 c'est la mise en commun des ressources qui a permis les économies
 d'échelle nécessaires à la réalisation de ce rêve.
 
-## Un long chemin
+### Un long chemin
 
 Le rêve s'est donc réalisé en 2001. Comme tout projet un peu fou, il emprunta
 alors un chemin sinueux vers une maturité désormais acquise. Certains sont
@@ -85,7 +83,7 @@ partis (Gandi, Placenet, Cursys, Artefact) et d'autres nous ont rejoint (Altern,
 L'autre.net, LDN, Neutrinet, Franciliens.net, Ilico, Illyse, Grenode et
 Tetaneutral.net), et l'esprit du réseau reste le même.
 
-# L'équipage
+## L'équipage
 
 Une partie d'entre nous a étudié l'informatique à l'école, l'autre non. Au fil
 des années, nous avons acquis de bonnes connaissances dans le domaine des
@@ -100,9 +98,9 @@ Notre participation à Gitoyen, sous forme de bénévolat, nous permet de :
 * partager nos connaissances, nos expériences avec les autres bénévoles,
 * aider d'autres opérateurs sans but lucratif à faire de même.
 
-# Règlement Intérieur
+## Règlement Intérieur
 
-# Gitoyen est membre de
+## Gitoyen est membre de
 
 FIXME
 
@@ -119,7 +117,7 @@ Gitoyen est membre ou est présent sur plusieurs points d'échange (aussi appel�
 
 Nos points de peering sont listés sur la page de l'AS20766 sur [peeringdb](https://www.peeringdb.com/view.php?asn=20766)
 
-# Les membres de Gitoyen
+## Les membres de Gitoyen
 
 Les membres de Gitoyen sont, à ce jour
 
@@ -136,11 +134,11 @@ Les membres de Gitoyen sont, à ce jour
 * [Neutrinet](http://neutrine.be/), Association fournisseur d'accès à Internet en Belgique.
 * [Tetaneutral.net](http://tetaneutral.net/), Association fournisseur d'accès à Internet à Toulouse.
 
-# Les Statuts
+## Les Statuts
 
 Voir les [Statuts](Statuts.md)
 
-# Comment adhérer à l'association
+## Comment adhérer à l'association
 
 Gitoyen est depuis Janvier 2012 une association. Elle a pour but de
 faciliter l'émergence et l'existence de petits opérateurs réseaux, en
