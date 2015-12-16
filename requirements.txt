@@ -1,7 +1,7 @@
 pelican
 markdown
 ghp-import
-fabric
+click
 path.py
 livereload
 beautifulsoup4
