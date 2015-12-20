@@ -77,7 +77,7 @@ class HtmlTreeNode(object):
 
     def __str__(self):
         ret = "<a class='toc-href' href='#{0}' title='{1}'>{1}</a>".format(
-                self.id, self.header)
+                self.id, self.header) if self.header else ""
 
         if self.children:
             ret += "<ul>{}</ul>".format('{}'*len(self.children)).format(
@@ -116,7 +116,7 @@ def generate_toc(content):
 
     all_ids = set()
     title = content.metadata.get('title', 'Title')
-    tree = node = HtmlTreeNode(None, title, 'h0', '')
+    tree = node = HtmlTreeNode(None, '', 'h0', '')
     soup = BeautifulSoup(content._content, 'html.parser')
     settoc = False
 
