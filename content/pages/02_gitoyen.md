@@ -1,6 +1,8 @@
-Title: Gitoyen
+Title: Gitoyen, opérateur réseau alternatif
+Slug: gitoyen
+Entry: Gitoyen
 
-## Qui est Gitoyen
+## Qui est Gitoyen ?
 
 Gitoyen est depuis Janvier 2012 une association loi 1901. Elle a pour
 but de faciliter l'émergence et l'existence de petits opérateurs
@@ -18,15 +20,15 @@ démarche.
 
 ![pas de profits]({filename}/images/nonprofit.jpg)
 Pas de profits
-{: .valeurs }
+{: .valeurs .nonprofit }
 
-![pas de profits]({filename}/images/partager.jpg)
+![du partage]({filename}/images/partager.jpg)
 Du partage
-{: .valeurs }
+{: .valeurs .partage }
 
-![pas de profits]({filename}/images/collaborer.jpg)
+![de l'entraide]({filename}/images/collaborer.jpg)
 De l'entraide
-{: .valeurs }
+{: .valeurs .entraide }
 
 Notre participation à Gitoyen, sous forme de bénévolat, nous permet de :
 
