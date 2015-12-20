@@ -16,6 +16,18 @@ démarche.
 
 ## Nos valeurs
 
+![pas de profits]({filename}/images/nonprofit.jpg)
+Pas de profits
+{: .valeurs }
+
+![pas de profits]({filename}/images/partager.jpg)
+Du partage
+{: .valeurs }
+
+![pas de profits]({filename}/images/collaborer.jpg)
+De l'entraide
+{: .valeurs }
+
 Notre participation à Gitoyen, sous forme de bénévolat, nous permet de :
 
 * construire un opérateur sans but lucratif, respectant la neutralité du réseau,

@@ -40,11 +40,13 @@ INDEX_SAVE_AS = 'blog.html'
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['pelican-toc']
 
+STATIC_PATHS = ['images']
+
 TOC = {
     'TOC_HEADERS' : '^h[2]',
     'TOC_RUN': 'true'
 }
 
-MD_EXTENSIONS = ([])
+MD_EXTENSIONS = (['attr_list'])
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
