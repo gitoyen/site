@@ -25,7 +25,7 @@ AUTHOR_FEED_RSS = None
 
 JINJA_FILTERS = {'is_active': filters.is_active}
 
-THEME = 'theme'
+THEME = './theme'
 
 DEFAULT_PAGINATION = 10
 

@@ -1,3 +1,4 @@
+#! /usr/bin/env python
 # coding: utf8
 
 import click
@@ -18,7 +19,7 @@ PELICAN_CONF = 'pelicanconf.py'
 OUTPUT = 'output'
 CONTENT = 'content'
 BLOG = 'content/blog'
-THEME = '../theme'
+THEME = './theme'
 
 class Config(object):
     def __init__(self):
