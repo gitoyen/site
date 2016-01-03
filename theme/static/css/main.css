@@ -28,10 +28,10 @@ body {
 
 /* Headings */
 h1 {font-size: 2em }
-h2 {font-size: 2.5em; text-transform: uppercase;margin-top:80px;margin-bottom: .8em; padding-top: 30px;}	/* 22px */
+h2 {font-size: 2.5em; text-transform: uppercase;margin-top:80px;margin-bottom: .8em; padding-top: 10px;}	/* 22px */
 h2:first-child {margin-top:0;}	/* 22px */
-h3 {font-size: 1.8em; color: #999; margin-top: 40px}	/* 20px */
-h4 {font-size: 1.286em}	/* 18px */
+h3 {font-size: 2em; color: #999; margin-top: 40px}	/* 20px */
+h4 {font-size: 1.7em; margin-top: 30px;font-weight: 300;}	/* 18px */
 h5 {font-size: 1.143em}	/* 16px */
 h6 {font-size: 1em}		/* 14px */
 
@@ -65,7 +65,7 @@ div.line-block,
 p { margin-top: 1em;
     margin-bottom: 1em;}
 
-strong, b {font-weight: bold;}
+strong, b {font-weight: bolder;}
 em, i {font-style: italic;}
 
 /* Lists */
@@ -263,6 +263,8 @@ nav#side-nav {
 			background-image: url(../images/puce-sideNav-active.png);
 			margin-right: -60px;
 			padding-right: 55px;
+			color: #333;
+			font-weight: bolder;
 		}
 
 		nav#side-nav ul li a {
@@ -270,6 +272,8 @@ nav#side-nav {
 			color: #999;
 			text-decoration: none;
 		}
+
+
 
 /*
 	Side content
