@@ -2,9 +2,6 @@ Title: Pytest Fixture
 Category: tuto
 Tags: python, dev
 
-[TOC]
-
-# toto
 I am a huge fan of python (one of the best language in my toolbox). And
 when it comes to tests, [pytest](http://pytest.org/) is *THE* library to use.
 
@@ -14,6 +11,7 @@ some of my snippets.
 First one the app fixture:
 
 ```python
+
 @pytest.fixture(autouse=True)
 def app():
     """Load flask in testing mode"""

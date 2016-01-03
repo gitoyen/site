@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1.1;
     font-family: 'Oswald', arial, serif;
 }
-	
+
 hr { border: 2px solid #EEEEEE; }
 
 /* Anchors */
@@ -59,7 +59,7 @@ a:hover, a:active {
 h1 a:hover {
     background-color: inherit
 }
-	
+
 /* Paragraphs */
 div.line-block,
 p { margin-top: 1em;
@@ -100,8 +100,6 @@ dl {margin: 0 0 1.5em 0;}
 dt {font-weight: bold;}
 dd {margin-left: 1.5em;}
 
-pre{background-color:  rgb(238, 238, 238); padding: 10px; margin: 10px; overflow: auto;}
-
 /* Quotes */
 blockquote {
     margin: 20px;
@@ -120,7 +118,7 @@ div.note {
 
 /* Tables */
 table {margin: .5em auto 1.5em auto; width: 98%;}
-	
+
 	/* Thead */
 	thead th {padding: .5em .4em; text-align: left;}
 	thead td {}
@@ -128,14 +126,14 @@ table {margin: .5em auto 1.5em auto; width: 98%;}
 	/* Tbody */
 	tbody td {padding: .5em .4em;}
 	tbody th {}
-	
+
 	tbody .alt td {}
 	tbody .alt th {}
-	
+
 	/* Tfoot */
 	tfoot th {}
 	tfoot td {}
-	
+
 /* HTML5 tags */
 header, section, footer,
 aside, nav, article, figure {
@@ -175,7 +173,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 			#banner #logo img {
 				width: 230px;
 			}
-		
+
 		/* Main Nav */
 		#banner nav {
 			display: inline-block;
@@ -191,10 +189,10 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 			right: 0;
 			top: 50%;
 		}
-		
+
 		#banner nav ul {list-style: none; margin: 0 auto; width: 840px;}
 		#banner nav li {float: left; display: inline; margin: 0 5px;}
-		
+
 		#banner nav a:link, #banner nav a:visited {
 			color: #fff;
 			display: inline-block;
@@ -205,7 +203,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 			text-transform: lowercase;
 			font-variant: small-caps;
 		}
-		
+
 		/* #banner nav a:active, */
 		#banner nav .active a:link, #banner nav .active a:visited {
 			border: 1px solid #FFF;
@@ -290,7 +288,7 @@ div#side-content {
 	overflow: hidden;
 	padding: 20px;
 	width: 760px;
-	
+
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -318,7 +316,7 @@ div#side-content {
 	margin-bottom: 2em;
 	overflow: hidden;
 	padding: 20px 20px;
-	width: 70%;	
+	width: 70%;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -358,21 +356,21 @@ div#side-content {
 		float: left;
 		width: 615px;
 	}
-	
+
 	#extras .blogroll li {float: left; margin: 0 20px 0 0; width: 185px;}
-	
+
 	/* Social */
 	#extras .social {
 		float: right;
 		width: 175px;
 	}
-	
+
 	#extras div[class='social'] a {
 		background-repeat: no-repeat;
 		background-position: 3px 6px;
 		padding-left: 25px;
 	}
-	
+
 		/* Icons */
 		.social a[href*='about.me'] {background-image: url('../images/icons/aboutme.png');}
 		.social a[href*='bitbucket.org'] {background-image: url('../images/icons/bitbucket.png');}
@@ -412,7 +410,7 @@ div#side-content {
 	padding: 20px;
 	text-align: left;
 	width: 760px;
-	
+
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -435,7 +433,7 @@ div#side-content {
 /* Blog */
 .hentry {
 	display: block;
-	clear: both; 	
+	clear: both;
 	border-bottom: 1px solid #eee;
 	padding: 1.5em 0;
 }
@@ -444,10 +442,10 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 .hentry img{display : none ;}
 
 .entry-title {
-	font-size: 3em; 
+	font-size: 3em;
 	font-family: Lato;
 	font-weight: 300;
-	margin-bottom: 60px; 
+	margin-bottom: 60px;
 	margin-top: 30px;
 	text-align: center;
 }
@@ -473,7 +471,7 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 	/* Blog Index */
 	#posts-list {list-style: none; margin: 0;}
 	#posts-list .hentry {padding-left: 10px; position: relative;}
-	
+
 	#posts-list footer {
 		left: 10px;
 		position: relative;
@@ -481,7 +479,7 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 		top: 0.5em;
 		width: 190px;
 	}
-	
+
 	/* About the Author */
 	#about-author {
 		background: #f9f9f9;
@@ -489,21 +487,21 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 		font-style: normal;
 		margin: 2em 0;
 		padding: 10px 20px 15px 20px;
-		
+
 		border-radius: 5px;
 		-moz-border-radius: 5px;
 		-webkit-border-radius: 5px;
 	}
-	
+
 	#about-author strong {
 		color: #C64350;
 		clear: both;
 		display: block;
 		font-size: 1.429em;
 	}
-	
+
 	#about-author .photo {border: 1px solid #ddd; float: left; margin: 5px 1em 0 0;}
-	
+
 	/* Comments */
 	#comments-list {list-style: none; margin: 0 1em;}
 	#comments-list blockquote {
@@ -512,25 +510,25 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 		font-style: normal;
 		margin: 0;
 		padding: 15px 20px;
-		
+
 		border-radius: 5px;
 		-moz-border-radius: 5px;
 		-webkit-border-radius: 5px;
 	}
 	#comments-list footer {color: #888; padding: .5em 1em 0 0; text-align: right;}
-	
+
 	#comments-list li:nth-child(2n) blockquote {background: #F5f5f5;}
-	
+
 	/* Add a Comment */
 	#add-comment label {clear: left; float: left; text-align: left; width: 150px;}
 	#add-comment input[type='text'],
 	#add-comment input[type='email'],
 	#add-comment input[type='url'] {float: left; width: 200px;}
-	
+
 	#add-comment textarea {float: left; height: 150px; width: 495px;}
-	
+
 	#add-comment p.req {clear: both; margin: 0 .5em 1em 0; text-align: right;}
-	
+
 	#add-comment input[type='submit'] {float: right; margin: 0 .5em;}
 	#add-comment * {margin-bottom: .5em;}
 

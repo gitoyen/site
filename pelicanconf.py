@@ -45,6 +45,6 @@ TOC = {
     'TOC_RUN': 'true'
 }
 
-MD_EXTENSIONS = (['attr_list'])
+MD_EXTENSIONS = ['attr_list', 'codehilite(css_class=highlight)', 'extra']
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
