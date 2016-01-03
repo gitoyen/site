@@ -1,6 +1,5 @@
-Title: Contact
-
-# Contact
+toc_run: false
+title: Contact
 
 ## Par courrier électronique
 

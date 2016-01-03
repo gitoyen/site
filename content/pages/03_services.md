@@ -4,16 +4,16 @@ Title: Services de Gitoyen
 
 Gitoyen fournit plusieurs services à ses membres et ses clients.
 
-# Description des services
+## Description des services
 
-## Transit Internet
+### Transit Internet
 
 Gitoyen est un opérateur Internet disposant de ses propres liens de
 communication avec le reste d'Internet. Dans ce cadre nous sommes en mesure de
 fournir une vue complète d'Internet (du **Transit**)  à nos membres ou nos
 clients.
 
-## Hébergement d'équipement
+### Hébergement d'équipement
 
 Gitoyen dispose de deux points de présence basés à Paris avec notre propre
 espace d'hébergement d'équipement. L'un à Téléhouse - Paris Voltaire et l'autre
@@ -22,7 +22,7 @@ espace d'hébergement d'équipement. L'un à Téléhouse - Paris Voltaire et l'a
 Nous sommes en mesure de proposer de l'**hébergement d'équipement** à nos
 membres et nos clients.
 
-## LIR / Obtention de ressources Internet
+### LIR / Obtention de ressources Internet
 
 Gitoyen est un *registre local d'Internet* (LIR). Cela lui donne la possibilité
 d'assigner des ressources : blocs d'adresses IP ou numéros d'AS.
@@ -36,7 +36,7 @@ Il y a deux types de ressources facturées :
 * Les autres ne nécessitant pas de contrat spécifique (**Provider Aggregate
   (PA)**, **Autonomous System (AS)**.
 
-## Commutation et Routage
+### Commutation et Routage
 
 Nous proposons à nos membres la possibilité d'utiliser :
 
@@ -47,14 +47,14 @@ Nous proposons à nos membres la possibilité d'utiliser :
   d'utiliser les routeurs et l'AS de Gitoyen pour annoncer leurs propres
   réseaux. L'infrastructure de routage inclut la commutation.
 
-# Les tarifs
+## Les tarifs
 
 TODO: ajouter le pdf ou bien faire un tableau html
 
 
-## Quelques cas d'usage
+### Quelques cas d'usage
 
-### Ressources Internet pour monter un petit FAI ou un hébergeur de services
+#### Ressources Internet pour monter un petit FAI ou un hébergeur de services
 
 Pour une petite structure nécessitant du réseau, il vous sera nécessaire
 d'avoir vos propres blocs d'adresses. Pour cela il vous suffit d'adhérer et de
@@ -62,7 +62,7 @@ prendre une ressource pour un bloc d'adresses IPv4, une autre pour un bloc
 d'adresses IPv6 et éventuellement une dernière pour avoir un AS, selon les
 besoins.
 
-### Livraison réseau via Gitoyen
+#### Livraison réseau via Gitoyen
 
 Pour avoir une livraison chez Gitoyen (par exemple en amenant un câble, ou en
 utilisant une machine virtuelle d'infrastructure chez Gitoyen), cela signifie
@@ -72,7 +72,7 @@ payer le transit et l'infrastructure de commutation.
 membre mais n'a pour but que d'établir un lien Ethernet « virtuel » entre
 Gitoyen et le réseau du membre (via openvpn, gre, ipsec, etc.).
 
-### Annoncer son réseau avec les routeurs de Gitoyen
+#### Annoncer son réseau avec les routeurs de Gitoyen
 
 Il est aussi possible d'utiliser directement les routeurs et l'AS de Gitoyen
 pour annoncer son réseau, dans ce cas il s'agit du tarif infrastructure de
@@ -81,7 +81,7 @@ routage (qui comprend l'infrastructure de commutation).
 Pour un exemple chiffré (par rapport à Gitoyen), pour une petite asso (moins de
 20 000 € de CA) dans un cas type, sans parler de l'adhésion cela donne :
 
-# Peering
+## Peering
 
 Gitoyen est un opérateur courtois et ouvert. Notre politique de
 peering est ouverte elle aussi : Il vous suffit de nous demander par
@@ -89,7 +89,7 @@ mail à peering (at) gitoyen (dot) net.
 
 Nous avons déjà une bonne centaine d'accords de peering. Vous pouvez aussi utiliser l'outil Looking Glass ou voir la base RPSL de nos peerings dans la base du RIPE-NCC.
 
-## Comment établir un peering avec Gitoyen ?
+### Comment établir un peering avec Gitoyen ?
 
 Pour monter un peering avec Gitoyen, vous aurez besoin des informations techniques suivantes :
 
@@ -98,6 +98,6 @@ Pour monter un peering avec Gitoyen, vous aurez besoin des informations techniqu
 * l'email du NOC est `noc@`
 * Nous n'utilisons pas la signature MD5 des sessions BGP. Si vous vous demandez pourquoi, rendez-vous dans la RFC 2385 chapitre 4.
 
-## Points de peering
+### Points de peering
 
 Nos points de peering sont listés sur la page de l'AS20766 sur [peeringdb](https://www.peeringdb.com/view.php?asn=20766)
