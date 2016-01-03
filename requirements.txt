@@ -1,7 +1,0 @@
-pelican
-markdown
-ghp-import
-click
-path.py
-livereload
-beautifulsoup4
