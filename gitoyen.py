@@ -44,9 +44,8 @@ class Application(object):
         return ['Not Found']
 
     def _serve_file(self, f, sr):
-        mime = mimetypes.guess_type(f)
-
-        sr('200 OK', [('Content-Type', mime[0])])
+        mime, _ = mimetypes.guess_type(f)
+        sr('200 OK', [('Content-Type', mime or 'application/octet-stream')])
         return f.chunks(self.chunk_size, 'rb')
 
     def _list_dir(self, d, sr):
