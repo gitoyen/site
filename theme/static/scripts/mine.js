@@ -1,66 +1,64 @@
+var wdw = $(window);
+var hash = window.location.hash;
 
-$(document).ready(function() {
+window.location.hash = ''; // avoid going to anchor
 
-	$('#toc').sticky({
-		topSpacing:30,
-		widthFromWrapper: false
-	});
+wdw.on('load', function() {
+  var sideContent = $('#side-content');
+  var size = 24; // magic number !
 
-	$('#side-nav ul li:first-child a').addClass('active')
+  sideContent.find('h2:last').add('h2:last ~ *').each(function() {
+    size += $(this).outerHeight(true);
+  });
+  sideContent.css('margin-bottom', wdw.height() - size);
 
-	$('#side-nav ul li a').on('click',function(e){
-		e.preventDefault();
-		var target = ($(this).attr('href')).substr(1);
-		$('body,html').animate({
-          scrollTop: $('#'+target).offset().top
-        }, 1000,'swing', function(){
-        	window.location.hash = '#'+target;
-        });
-		$('#side-nav ul li a').removeClass('active');		
-		$(this).addClass('active');
+  $('#toc').sticky({topSpacing:30});
 
-	});	
+  var navs = $('#side-nav ul li a');
+  var navItemsMap = {};
 
-	var lastId,
-	    sideMenu = $('#toc ul'),
-	    // All list items
-	    menuItems = sideMenu.find('a'),
-	    // Anchors corresponding to menu items
-	    scrollItems = menuItems.map(function(){
-	      var item = $($(this).attr('href'));
-	      if (item.length) { return item; }
-	    });
+  var navItems = navs.map(function(_, item) {
+    var anchor = item.getAttribute('href');
+    var anchorItem = $(anchor);
+    var navItem = {
+      'nav': $(item),
+      'anchor': {'name': anchor, 'item': anchorItem},
+      'pos': anchorItem.offset().top - 80
+    };
+    navItemsMap[anchor] = navItem;
+    return navItem;
+  });
 
 
-	// Bind to scroll
-	$(window).scroll(function(){
+  wdw.scroll(function(){
+    var nav;
+    var pos = wdw.scrollTop();
+    $.each(navItems, function(_, item) {
+      return pos > item.pos - 1 ?  nav = item.nav : false;
+    });
+    if (nav) {
+      navs.removeClass('active');
+      nav.addClass('active');
+    }
+  });
 
-	   // Get container scroll position
-	   var fromTop = $(this).scrollTop() + 80;
+  if (hash) {
+    goTo(hash);
+  } else {
+    navs.first().addClass('active');
+  }
 
-	   if (fromTop > $('#side-content h2').offset().top) {
-	   
-		   // Get id of current scroll item
-		   var cur = scrollItems.map(function(){
-		     if ($(this).offset().top < fromTop)
-		       return this;
-		   });
+  navs.on('click',function(e){
+    e.preventDefault();
+    goTo(e.currentTarget.getAttribute('href'));
+  });
 
-		   // Get the id of the current element
-		   cur = cur[cur.length-1];
-		   var id = cur && cur.length ? cur[0].id : '';
-
-		   if (lastId !== id) {
-		       lastId = id;
-		       // Set/remove active class
-		       //window.location.hash = '#'+id;
-		       menuItems
-		         .removeClass('active')
-		         .filter('[href=#'+id+']').addClass('active');
-
-		   }               
-		}
-	});
-
+  function goTo(hash) {
+    $('body,html').animate(
+      {scrollTop: navItemsMap[hash].pos}, 1000, 'swing',
+      function() {
+        window.location.hash = hash;
+      }
+    );
+  }
 });
-
