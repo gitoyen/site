@@ -1,22 +1,20 @@
 {% extends "base.html" %}
 {% block title %}{{ page.title }}{% endblock %}
 {% block content %}
+  <h1 class="entry-title"><span>{{ page.title }}</span></h1>
+  {% if page.toc %}
+  <nav id="side-nav">
+    {{ page.toc }}
+  </nav>
+  <div id="content">
+  {% endif %}
 
-<section id="content" class="body">
-    <h1 class="entry-title"><span>{{ page.title }}</span></h1>
-    {% if page.toc %}
-    <nav id="side-nav">
-      {{ page.toc }}
-    </nav>
-    <div id="side-content">
-    {% endif %}
+  {% import 'translations.html' as translations with context %}
+  {{ translations.translations_for(page) }}
+  {{ page.content }}
 
-    {% import 'translations.html' as translations with context %}
-    {{ translations.translations_for(page) }}
-    {{ page.content }}
+  {% if page.toc %}
+  </div>
+  {% endif %}
 
-    {% if page.toc %}
-    </div>
-	{% endif %}
-</section>
 {% endblock %}

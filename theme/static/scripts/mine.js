@@ -4,13 +4,13 @@ var hash = window.location.hash;
 window.location.hash = ''; // avoid going to anchor
 
 wdw.on('load', function() {
-  var sideContent = $('#side-content');
+  var content = $('#content');
   var size = 24; // magic number !
 
-  sideContent.find('h2:last').add('h2:last ~ *').each(function() {
+  content.find('h2:last').add('h2:last ~ *').each(function() {
     size += $(this).outerHeight(true);
   });
-  sideContent.css('margin-bottom', wdw.height() - size);
+  content.css('margin-bottom', wdw.height() - size);
 
   $('#toc').sticky({topSpacing:30});
 
