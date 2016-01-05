@@ -1,16 +1,17 @@
-var wdw = $(window);
+var $window = $(window);
 var hash = window.location.hash;
 
 window.location.hash = ''; // avoid going to anchor
 
-wdw.on('load', function() {
+
+$window.on('load', function() {
   var content = $('#content');
   var size = 24; // magic number !
 
   content.find('h2:last').add('h2:last ~ *').each(function() {
     size += $(this).outerHeight(true);
   });
-  content.css('margin-bottom', wdw.height() - size);
+  content.css('margin-bottom', $window.height() - size);
 
   $('#toc').sticky({topSpacing:30});
 
@@ -23,16 +24,16 @@ wdw.on('load', function() {
     var navItem = {
       'nav': $(item),
       'anchor': {'name': anchor, 'item': anchorItem},
-      'pos': anchorItem.offset().top - 80
+      'pos': anchorItem.offset().top
     };
     navItemsMap[anchor] = navItem;
     return navItem;
   });
 
 
-  wdw.scroll(function(){
+  $window.scroll(function(){
     var nav;
-    var pos = wdw.scrollTop();
+    var pos = $window.scrollTop();
     $.each(navItems, function(_, item) {
       return pos > item.pos - 1 ?  nav = item.nav : false;
     });
