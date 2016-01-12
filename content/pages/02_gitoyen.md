@@ -117,7 +117,8 @@ Notre participation à Gitoyen, sous forme de bénévolat, nous permet de :
 ## Gitoyen est membre de
 
 * [Fédération FDN](http://www.ffdn.org/)
-* [Ring NLnog](http://ring.nlnog.net)
+* [Ring NLnog](http://ring.nlnog.net/)
+* [The DCP Bay](http://tdcpb.org/)
 
 Gitoyen est membre ou est présent sur plusieurs points d'échange (aussi appelés IX).
 
