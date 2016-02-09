@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% block title %}{{ page.title }}{% endblock %}
 {% block content %}
+
   <h1 class="entry-title"><span>{{ page.title }}</span></h1>
   {% if page.toc %}
   <nav id="side-nav">
@@ -16,5 +17,4 @@
   {% if page.toc %}
   </div>
   {% endif %}
-
 {% endblock %}
