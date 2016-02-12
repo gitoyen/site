@@ -95,9 +95,9 @@ Pour monter un peering avec Gitoyen, vous aurez besoin des informations techniqu
 
 * Notre numéro de système autonome est AS20766
 * Nous annonçons l'AS-Macro AS-GITOYEN.
-* l'email du NOC est `noc@`
+* L'email du NOC est `noc@`
 * Nous n'utilisons pas la signature MD5 des sessions BGP. Si vous vous demandez pourquoi, rendez-vous dans la RFC 2385 chapitre 4.
 
 ### Points de peering
 
-Nos points de peering sont listés sur la page de l'AS20766 sur [peeringdb](https://www.peeringdb.com/view.php?asn=20766)
+Nos points de peering sont listés sur la page de l'AS20766 sur [peeringdb](https://as20766.peeringdb.com)

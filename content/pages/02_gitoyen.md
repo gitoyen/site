@@ -79,7 +79,7 @@ d'un Internet non marchand indépendant du monde marchand : quoi de
 plus logique ? La nouveauté c'est aussi que Gitoyen n'a aucune
 vocation de rentabilité.
 
-Qu'au-delà des ideaux communs de ses membres, il est apparu qu'il
+Qu'au delà des idéaux communs de ses membres, il est apparu qu'il
 était désormais possible de créer en France une structure d'accueil de
 tous ceux qui partagent ces idéaux, et que puisque c'est possible,
 alors il faut le faire.
@@ -116,11 +116,9 @@ Notre participation à Gitoyen, sous forme de bénévolat, nous permet de :
 
 ## Gitoyen est membre de
 
-FIXME
-
-La [Fédération FDN](http://www.ffdn.org/)
-
-* Le [ring nlnog](http://ring.nlnog.net)
+* [Fédération FDN](http://www.ffdn.org/)
+* [Ring NLnog](http://ring.nlnog.net/)
+* [The DCP Bay](http://tdcpb.org/)
 
 Gitoyen est membre ou est présent sur plusieurs points d'échange (aussi appelés IX).
 
@@ -129,7 +127,7 @@ Gitoyen est membre ou est présent sur plusieurs points d'échange (aussi appel�
 * [AMSIX](http://amsix.net)
 * [SfinIX](http//renater.fr/Sfinx)
 
-Nos points de peering sont listés sur la page de l'AS20766 sur [peeringdb](https://www.peeringdb.com/view.php?asn=20766)
+Nos points de peering sont listés sur la page de l'AS20766 sur [peeringdb](https://as20766.peeringdb.com)
 
 ## Les membres de Gitoyen
 
@@ -143,7 +141,7 @@ Les membres de Gitoyen sont, à ce jour
 * [Franciliens.net](http://franciliens.net/), Association fournisseur d'accès à Internet en Ile-de-France.
 * [Grenode](http://grenode.net/), Association très semblable à Gitoyen (LIR, Opérateur réseau associatif), basé à Grenoble.
 * [Ilico.org](http://ilico.org/), Association fournisseur d'accès à Internet en Corrèze.
-* [Illyse.net](http://illyse.net/), Association fournisseur d'accès à Internet à Lyon et Saint Etienne
+* [Illyse.net](http://illyse.net/), Association fournisseur d'accès à Internet à Lyon et Saint-Étienne
 * [L'autre.net](http://lautre.net/), Hébergeur associatif autogéré depuis 2001.
 * [Neutrinet](http://neutrine.be/), Association fournisseur d'accès à Internet en Belgique.
 * [Tetaneutral.net](http://tetaneutral.net/), Association fournisseur d'accès à Internet à Toulouse.
