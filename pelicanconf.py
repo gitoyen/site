@@ -15,11 +15,17 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = u'fr'
 
 # Feed generation is usually not desired when developing
+FEED_DOMAIN = 'https://gitoyen.net'
 FEED_ALL_ATOM = None
+FEED_ALL_RSS = 'feeds/all.rss.xml'
 CATEGORY_FEED_ATOM = None
+CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+# Social
+TWITTER_USERNAME = 'gitoyen'
 
 JINJA_FILTERS = {'is_active': filters.is_active}
 
