@@ -239,10 +239,6 @@ Header
   background-size: 18px 18px;
 }
 
-#banner nav li a#search {
-  background-image: url(../images/search.png);
-}
-
 #banner nav li a#twitter {
   background-image: url(../images/twitter.png);
 }
