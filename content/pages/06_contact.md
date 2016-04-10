@@ -1,48 +1,78 @@
 toc_run: false
-title: Contact
+Title: Contact
+Url: contact.html
+Template: contact
+save_as: contact.html
 
-## Par courrier électronique
 
-Vous pouvez contacter Gitoyen par mail :
+<h2>Contactez-nous</h2>
 
-* `contact@` est un bon premier point de contact ;
-* `noc@` si vous avez des soucis « opérateur » (problèmes de routage, de transit,…) ;
-* `peering@` si vous souhaitez établir une session de peering avec nous ;
-* l'adresse `abuse@` est lue ;).
 
-## Par messagerie instantanée
 
-Sur IRC, le canal de Gitoyen est `#gitoyen` sur le réseau [GeekNode](http://geeknode.net), sur le serveur `irc.geeknode.net`.
+<h3>Par mail</h3>
+<div class="row"> 
+<section class="mails">
+	<ul>
+		<li> <strong>contact@</strong> - un bon premier point de contact</li>
+		<li> <strong>noc@</strong> - si vous avez des soucis « opérateur » (problèmes de routage, de transit,…)</li>
+		<li> <strong>peering@</strong> - si vous souhaitez établir une session de peering avec nous </li> 
+		<li> <strong>abuse@</strong> - l'adresse est lue ;)</li>
+	</ul>
+</section>
+</div>
 
-## Par courrier postal
 
-Par voie postale, à notre adresse.
+<h3>Par IRC</h3>
+<div class="row">
+<section class="irc">
+	<ul>
+	<li><strong>#gitoyen</strong>- Canal de Gitoyen</li>
+	<li><strong><a href="http://geeknode.net">GeekNode</a> </strong>- Réseau</li>
+	<li><strong>irc.geeknode.net </strong>- Serveur</li>
+	</ul>
+</section>
+</div>
 
-    Gitoyen
-    21 ter rue Voltaire
-    75011 Paris
 
-## Sur les média sociaux
+<h3>Par courrier</h3>
+<div class="row">
+<section class="courrier">
+	<p class="adresse">
+	    <strong>Gitoyen<br></strong>	
+	    21 ter rue Voltaire<br>
+	    75011 Paris
+	</p>
+</section>
+</div>
 
-Sur twitter, nous utilisons (peu) ces deux comptes :
 
-* [@gitoyen](https://twitter.com/gitoyen) pour la communication formelle, et les annonces.
-* [@as20766](https://twitter.com/as20766) plus informel..
+<h3>Sur Twitter</h3>
+<div class="row">
+<section class="cpt-twitter">
+	<ul>
+		<li><a href="https://twitter.com/gitoyen">@gitoyen</a> pour la communication formelle, et les annonces.</li>
+		<li><a href="https://twitter.com/as20766">@as20766</a> plus informel..</li>
+	</ul>
+</section>
+</div>
 
-## Contact d'urgence
 
-En cas d'extrême urgence, et si le contact mail `contact@` ne réponds pas,
-Gitoyen peut aussi être contacté par téléphone via le numéro fournit dans la
-base de donné du RIPE.
+<h3>Contact d'urgence</h3>
+<div class="row">
+<section class="urgence">
+	En cas d'extrême urgence, et si le contact mail `contact@` ne réponds pas,
+	Gitoyen peut aussi être contacté par téléphone via le numéro fournit dans la
+	base de donné du RIPE.<br>
+	<strong>whois -h whois.ripe.net AS20766</strong>
+</section>
+</div>
 
-    whois -h whois.ripe.net AS20766
+<h2>Outils pour les opérateurs</h2>
 
-# Outils
-
-Gitoyen dispose de plusieurs outils à destination des opérateurs.
-
-* [looking-glass](http://lg.gitoyen.net/)
-* [ring nlnog](http://ring.nlnog.net/)
-* [mirroir debian](http://debian.gitoyen.net/)
-* [observium](http://observium.gitoyen.net/)
-* [smokeping](http://smokeping.gitoyen.net/)
+<ul>
+	<li><a href="http://lg.gitoyen.net/">Looking-glass</a></li>
+	<li><a href="http://ring.nlnog.net/">Ring nlnog</a></li>
+	<li><a href="http://debian.gitoyen.net/">Mirroir debian</a></li>
+	<li><a href="http://observium.gitoyen.net/">Observium</a></li>
+	<li><a href="http://smokeping.gitoyen.net/">Smokeping</a></li>
+</ul>
