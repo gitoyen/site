@@ -62,4 +62,15 @@ $window.on('load', function() {
       }
     );
   }
+
+  $('#burger').on('click',function(){
+    $('#banner nav').toggleClass('opened');
+    $('.cacheMenu').fadeToggle();
+  });
+
+  $('.cacheMenu').on('click',function(){
+    $('#banner nav').toggleClass('opened');
+    $('.cacheMenu').fadeToggle();
+  });
+
 });
