@@ -92,12 +92,17 @@ li { margin-top: 0.5em;
 margin-bottom: 1em; }
 
 .post-info {
-  float:right;
   margin:10px;
   padding:5px;
 }
 
-.post-info p{
+@media all and (min-width: 40em) {
+  .post-info {
+    float: right;
+  }
+}
+
+.post-info p {
   margin-top: 1px;
   margin-bottom: 1px;
 }
@@ -151,6 +156,10 @@ aside, nav, article, figure {
 /***** Layout *****/
 img.right, figure.right {float: right; margin: 0 0 2em 2em;}
 img.left, figure.left {float: left; margin: 0 2em 2em 0;}
+
+article img {
+  max-width: 100%;
+}
 
 /*
 Global
@@ -429,36 +438,6 @@ nav#side-nav ul li a {
   color: #999;
   text-decoration: none;
 }
-
-
-/*
-Featured
- *****************/
-#featured {
-  background: #fff;
-  margin-bottom: 2em;
-  overflow: hidden;
-  padding: 20px;
-  width: 760px;
-
-  border-radius: 10px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-}
-
-#featured figure {
-  border: 2px solid #eee;
-  float: right;
-  margin: 0.786em 2em 0 5em;
-  width: 248px;
-}
-#featured figure img {display: block; float: right;}
-
-#featured h2 {color: #C74451; font-size: 1.714em; margin-bottom: 0.333em;}
-#featured h3 {font-size: 1.429em; margin-bottom: .5em;}
-
-#featured h3 a:link, #featured h3 a:visited {color: #000305; text-decoration: none;}
-#featured h3 a:hover, #featured h3 a:active {color: #fff;}
 
 /*
 Body
@@ -745,14 +724,6 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 /* Blog Index */
 #posts-list {list-style: none; margin: 0;}
 #posts-list .hentry {padding-left: 10px; position: relative;}
-
-#posts-list footer {
-  left: 10px;
-  position: relative;
-  float: left;
-  top: 0.5em;
-  width: 190px;
-}
 
 /* About the Author */
 #about-author {

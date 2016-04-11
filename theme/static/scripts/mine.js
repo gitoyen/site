@@ -12,7 +12,6 @@ $window.on('load', function() {
   if (window.matchMedia('(max-width: 40rem)').matches) {
     return;
   }
-
   content.find('h2:last').add('h2:last ~ *').each(function() {
     size += $(this).outerHeight(true);
   });
