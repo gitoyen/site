@@ -375,9 +375,13 @@ Header
 /*
 Side navigation
  *****************/
+
+@media all and (max-width: 40em) {
+  nav#side-nav {
+    display: none;
+  }
+}
 nav#side-nav {
-  display: inline-block;
-  width: 25%;
   vertical-align: top;
   text-align: right;
   padding-right: 60px;
@@ -431,14 +435,6 @@ nav#side-nav ul li a {
 
 
 /*
-Content
- *****************/
-div#content {
-  display: inline-block;
-  width: 60%;
-}
-
-/*
 Featured
  *****************/
 #featured {
@@ -490,13 +486,8 @@ Body
 Home page
  *****************/
 
-#content-home section.titre {
-	background-image: url(../images/pessin2.png);
-	background-repeat: no-repeat;
-	background-position: right top;
-	background-size: 50%;
-	padding-bottom: 200px;
-	margin-bottom: -40px;
+#content-home section {
+  text-align: center;
 }
 
 #content-home h1 {
@@ -521,14 +512,10 @@ Home page
 	margin-left: 20px;
 }
 
-#content-home section {
-	padding: 80px 0;
-	text-align: center;
-}
-
-#content-home .separateur {
+#content-home hr {
 	width: 100%;
 	height: 10px;
+  margin-top: -40px;
 	background-color: #EEE;
 	position: absolute;
 	left: 0;
@@ -536,10 +523,12 @@ Home page
 	z-index: -1;
 }
 
+#content-home hr#first-sep {
+  margin-top: -70px;
+}
+
 #content-home blockquote {
 	background-color: #dc4807;
-	display: inline-block;
-	padding: 40px 20px;
 	color: #FFF;
 	font-size: 28px;
 	margin: 0;
@@ -550,81 +539,37 @@ Home page
 	filter:progid:DXImageTransform.Microsoft.Shadow(color=#c0c0c0, Direction=134, Strength=5);
 }
 
-#content-home blockquote + .separateur {
-	margin-top: -70px;
-}
-
-#content-home blockquote p {
-	width: 80%;
-	text-align: center;
-	margin: auto;
-}
-
 #content-home .presentation {
 	background-image: url(../images/deco-titre.png);
 	background-repeat: no-repeat;
-	padding: 40px 80px;
 	font-size: 24px;
-	width: 70%;
-	margin-top: 120px;
-	margin-bottom: 120px;
-	margin-left: 30%;
 }
 
-#content-home h3:nth-child(even) {
-	text-align: right;
-	padding-right: 50px;
-}
+@media all and (min-width: 40em) {
+  #content-home .presentation {
+    padding: 40px 80px;
+  }
 
-#content-home h3:nth-child(odd) {
-	text-align: left;
-	padding-left: 50px;
-}
+  #content-home section:nth-child(even) h3 {
+    text-align: right;
+    padding-right: 50px;
+  }
 
-#content-home h3 + .separateur {
-	margin-top: -40px;
+  #content-home section:nth-child(odd) h3 {
+    text-align: left;
+    padding-left: 50px;
+  }
 }
 
 #content-home h3 span {
+  display: inline-block;
 	background-color: #EEE;
-	display: inline-block;
 	padding: 20px 40px;
+  margin: auto;
 	text-transform: uppercase;
 	color: #000;
 	font-size: 32px;
 	font-weight: lighter;
-}
-
-#content-home .valeurs {
-	width: 30%;
-	display: inline-block;
-}
-
-#content-home .valeurs img {
-	width: 70%;
-	text-align: center;
-}
-
-#content-home .valeurs.nonprofit img {
-	width: 50%;
-}
-
-#content-home .valeurs h4 {
-	font-size: 22px;
-	font-weight: bold;
-	font-family: Lato, Arial, sans-serif;
-}
-
-#content-home .valeurs p {
-	font-size: 18px;
-	padding: 0 40px;
-}
-
-#content-home .services li {
-	list-style: none;
-	display: inline-block;
-	width: 49%;
-	vertical-align: top;
 }
 
 #content-home .services li span {
@@ -775,19 +720,21 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
   font-size: 3em;
   font-family: Lato;
   font-weight: 300;
-  margin-bottom: 60px;
-  margin-top: 30px;
+  margin: 1rem 0 3rem 0;
   text-align: center;
 }
-.entry-title span {
-  display: inline-block;
-  padding: 0 80px;
-  height: 100px;
-  background-image: url(../images/deco-titre.png);
-  background-repeat: no-repeat;
-  background-position: right 10px;
-}
 
+
+@media all and (min-width: 40em) {
+  .entry-title span {
+    display: inline-block;
+    padding: 0 80px;
+    height: 100px;
+    background-image: url(../images/deco-titre.png);
+    background-repeat: no-repeat;
+    background-position: right 10px;
+  }
+}
 .entry-title a:link, .entry-title a:visited {text-decoration: none; color: #333;}
 .entry-title a:visited {background-color: #fff;}
 
@@ -862,34 +809,6 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 #add-comment input[type='submit'] {float: right; margin: 0 .5em;}
 #add-comment * {margin-bottom: .5em;}
 
-/* Valeurs */
-#content .valeurs {
-  width: 33%;
-  text-align: center;
-  display: inline-block;
-  font-weight: 600;
-  margin-bottom: 30px
-}
-
-#content .valeurs.nonprofit img{
-  width: 70%;
-}
-
-#content .valeurs.entraide img{
-  width: 80%;
-}
-
-#content .valeurs.partage img{
-  width: 90%;
-}
-
-#content .valeurs img {
-  width: 100%;
-  display: block;
-  margin: auto;
-  margin-bottom: 20px;
-}
-
 .show {
   display: block; }
 
@@ -936,26 +855,42 @@ ul.list-inline {
 .container {
   max-width: 64rem;
   width: 94%;
-  margin: 0 auto; }
-  @media all and (min-width: 40em) {
-    .container {
-      width: 100%;
-      padding: 0 1rem; } }
+  margin: 0 auto;
+}
+
+@media all and (min-width: 40em) {
+  .container {
+    width: 100%;
+    padding: 0 1rem;
+  }
+}
 
 @media all and (min-width: 40em) {
   .col1of1 {
     float: left;
-    width: 100%; } }
+    width: 100%;
+  }
+}
 
 @media all and (min-width: 40em) {
   .col1of2 {
     float: left;
-    width: 50%; } }
+    width: 50%;
+  }
+}
+
+@media all and (max-width: 40em) {
+  .col1of2, .col1of3, .col1of1, .col2of3 {
+    width: 100%;
+  }
+}
 
 @media all and (min-width: 40em) {
   .col1of3 {
     float: left;
-    width: 33.33333%; } }
+    width: 33.33333%;
+  }
+}
 
 @media all and (min-width: 40em) {
   .col2of3 {
