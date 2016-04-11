@@ -8,6 +8,11 @@ $window.on('load', function() {
   var content = $('#content');
   var size = 24; // magic number !
 
+  // nav is not displayed on small screens so no need to continue
+  if (window.matchMedia('(max-width: 40rem)').matches) {
+    return;
+  }
+
   content.find('h2:last').add('h2:last ~ *').each(function() {
     size += $(this).outerHeight(true);
   });
