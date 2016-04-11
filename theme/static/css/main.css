@@ -20,10 +20,12 @@ body {
   color: #000305;
   font-family: 'Lato', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.429;
-  margin: 0;
   padding: 0;
   text-align: left;
   position: relative;
+  clear: both;
+  margin: 0 auto;
+  width: 100%;
 }
 
 /* Headings */
@@ -31,8 +33,8 @@ h1 {font-size: 2em }
 h2 {
   font-size: 2.5em;
   text-transform: uppercase;
-  padding-top:90px;
-  margin-bottom: .8em; /* 22px */
+  padding-top: 3rem;
+  margin-bottom: 0.8rem;
 }
 
 h2:first-child {margin-top:0;}	/* 22px */
@@ -147,11 +149,6 @@ aside, nav, article, figure {
 }
 
 /***** Layout *****/
-.body {
-  clear: both;
-  margin: 0 auto;
-  width: 100%;
-}
 img.right, figure.right {float: right; margin: 0 0 2em 2em;}
 img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 

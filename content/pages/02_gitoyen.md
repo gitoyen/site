@@ -18,17 +18,23 @@ démarche.
 
 ## Nos valeurs
 
-![pas de profits]({filename}/images/nonprofit.jpg)
-Pas de profits
-{: .valeurs .nonprofit }
+<div class="col1of1">
+  <div class="col1of3">
+    <img src="../images/nonprofit.jpg" alt="Pas de profits" class="col1of1 row7 p2">
+    <p>Pas de profits</p>
+  </div>
 
-![du partage]({filename}/images/partager.jpg)
-Du partage
-{: .valeurs .partage }
+  <div class="col1of3">
+    <img src="../images/partager.jpg" alt="Du partage" class="col1of1 row7 p2">
+    <p>Du partage</p>
+  </div>
 
-![de l'entraide]({filename}/images/collaborer.jpg)
-De l'entraide
-{: .valeurs .entraide }
+  <div class="col1of3">
+    <img src="../images/collaborer.jpg" alt="De l'entraide" class="col1of1 row7 p2">
+    <p>De l'entraide</p>
+  </div>
+</div>
+
 
 Notre participation à Gitoyen, sous forme de bénévolat, nous permet de :
 

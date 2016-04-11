@@ -2,12 +2,12 @@
 {% block title %}{{ page.title }}{% endblock %}
 {% block content %}
 
-  <h1 class="entry-title"><span>{{ page.title }}</span></h1>
+  <h1 class="entry-title col1of1"><span>{{ page.title }}</span></h1>
   {% if page.toc %}
-  <nav id="side-nav">
+  <nav id="side-nav" class="col1of3">
     {{ page.toc }}
   </nav>
-  <div id="content">
+  <div id="content" class="col2of3">
   {% endif %}
 
   {% import 'translations.html' as translations with context %}
