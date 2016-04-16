@@ -12,7 +12,7 @@ save_as: index.html
 
   <img class="col1of2" src="../images/pessin2.png" alt="Pas de profits">
 
-  <blockquote class="col1of2"><p>" Pour qu'Internet reste neutre et décentralisé. "</p></blockquote>
+  <blockquote class="quote-valeurs col1of2"><p>" Pour qu'Internet reste neutre et décentralisé. "</p></blockquote>
   <div class="clearfix"></div>
   <hr id="first-sep">
 
