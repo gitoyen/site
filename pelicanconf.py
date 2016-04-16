@@ -44,7 +44,7 @@ INDEX_SAVE_AS = 'blog.html'
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['pelican-toc']
 
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'extra/favicon.ico']
 
 TOC = {
     'TOC_HEADERS' : '^h[2]',
@@ -54,3 +54,7 @@ TOC = {
 MD_EXTENSIONS = ['attr_list', 'codehilite(css_class=highlight)', 'extra']
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'}
+}
