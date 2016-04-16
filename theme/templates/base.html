@@ -30,6 +30,13 @@
         <div id="logo">
           <a href="{{ SITEURL }}/index.html"></a>
         </div>
+        <div class="burger">
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
         <nav>
           <ul>
             {% if DISPLAY_PAGES_ON_MENU -%}
@@ -39,8 +46,8 @@
             </li>
             {% endfor %}
             {% endif %}
-            <li><a href="https://twitter.com/{{ TWITTER_USERNAME }}" class="icon" id="twitter"></a></li>
-            <li><a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" class="icon" id="rss"></a></li>
+            <li class="icon twitter"><a href="https://twitter.com/{{ TWITTER_USERNAME }}"> </a></li>
+            <li class="icon rss"><a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}"> </a></li>
           </ul>
         </nav>
       </div>

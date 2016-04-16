@@ -250,17 +250,12 @@ Header
   vertical-align: middle;
 }
 
-#banner nav li#twitter a {
+#banner nav li.twitter a {
   background-image: url(../images/twitter.png);
 }
 
-#banner nav li#rss a {
+#banner nav li.rss a {
   background-image: url(../images/rss.png);
-}
-
-#burger {
-  display: table-cell;
-  text-align: right;
 }
 
 .cacheMenu {
@@ -274,12 +269,18 @@ Header
   display: none;
 }
 
-#burger ul {
-  display: inline-block;
-  margin-right: 30px;
+.burger {
+  display: table-cell;
+  text-align: right;
 }
 
-#burger li {
+.burger ul {
+  display: inline-block;
+  margin-right: 30px;
+  list-style: none;
+}
+
+.burger li {
   content: " ";
   background-color: #FFF;
   width: 30px;
@@ -291,7 +292,7 @@ Header
 /* Responsive header */
 
 @media screen and (min-width: 1141px){
-  #burger {
+  .burger {
     display: none;
   }
 }
@@ -332,12 +333,12 @@ Header
     padding: 20px 1em;
     border-bottom: 1px solid #FFF;
     text-align: left;
+    margin:0;
   }
    #banner nav li:first-child { 
     border-top: 1px solid #FFF;
   }
   #banner nav li.icon { 
-    display: inline-block;
     border-bottom: none;
     float: left;
   }
@@ -346,12 +347,14 @@ Header
     background-position: left;
     padding-left: 30px;
   }
-  #banner nav li#twitter a {
+  #banner nav li.twitter a:after {
     content: "Twitter";
+    line-height: 18px;
   }
-  #banner nav li#rss a {
+  #banner nav li.rss a:after {
     content: "rss";
     font-size: 24px;
+    line-height: 18px;
   }
   #banner nav li a {
     display: block;
@@ -360,11 +363,13 @@ Header
     font-weight: bold;
   }
 
-  #banner nav .active a:link, #banner nav .active a:visited {
-    border: none;
-    font-weight: bold;
-    text-decoration: underline;
+  #banner nav .active {
+    background: #333;
   }
+
+    #banner nav .active a:link, #banner nav .active a:visited {
+      border: none;
+    }
 }
 
 /*

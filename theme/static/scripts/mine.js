@@ -63,7 +63,7 @@ $window.on('load', function() {
     );
   }
 
-  $('#burger').on('click',function(){
+  $('.burger').on('click',function(){
     $('#banner nav').toggleClass('opened');
     $('.cacheMenu').fadeToggle();
   });
