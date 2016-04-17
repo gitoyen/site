@@ -8,20 +8,6 @@ when it comes to tests, [pytest](http://pytest.org/) is *THE* library to use.
 I also use [Flask](http://flask.pocoo.org/) a lot, so today I will show you
 some of my snippets.
 
-First one the app fixture:
-
-```python
-
-@pytest.fixture(autouse=True)
-def app():
-    """Load flask in testing mode"""
-    app_test = myapp
-    app_test.config['TESTING'] = True
-    app_test.json_encoder = my_encoder
-
-    return app_test.test_client()
-```
-
 This create an app fixture which will be used to test the application, it
 returns a test client to interact with my Flask application.
 

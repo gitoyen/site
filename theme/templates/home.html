@@ -6,7 +6,31 @@
   {% import 'translations.html' as translations with context %}
   {{ translations.translations_for(page) }}
   {{ page.content }}
+  {% if articles %}
+      <ol id="posts-list" class="hfeed">
+  {% for article in articles[:3] %}
+  <li>
+    <article class="hentry">
+      <header>
+        <h2>
+          <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">
+            {{ article.title }}
+          </a>
+        </h2>
+      </header>
 
+      <div class="entry-content">
+        {% include 'article_infos.html' %}
+        {{ article.summary }}
+        <a class="readmore" href="{{ SITEURL }}/{{ article.url }}">read more</a>
+        {% include 'comments.html' %}
+      </div><!-- /.entry-content -->
+
+    </article>
+  </li>
+  {% endfor %}
+  </ol>
+  {% endif %}
 </div>
 
 {% endblock %}
