@@ -12,13 +12,13 @@ save_as: index.html
 
   <img class="col1of2" src="../images/pessin2.png" alt="Pas de profits">
 
-  <blockquote class="quote-valeurs col1of2"><p>" Pour qu'Internet reste neutre et décentralisé. "</p></blockquote>
+  <blockquote class="quote-valeurs col1of2"><p>" Pour qu'Internet reste neutre et acentré. "</p></blockquote>
   <div class="clearfix"></div>
   <hr id="first-sep">
 
   <div class="pre1of3 col2of3">
   <p class="presentation m1">
-  Gitoyen est une association loi 1901, à but non lucratif. Notre objectif ? Un internet décentralisé et neutre, notamment en facilitant l'émergence et l'existence de petits opérateurs réseau.
+  Gitoyen est une association loi 1901, à but non lucratif. Notre objectif ? Un Internet acentré et neutre, notamment en facilitant l'émergence et l'existence de petits opérateurs réseau.
   </p>
   </div>
 

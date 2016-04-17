@@ -10,7 +10,7 @@ réseaux, en particulier dans le but d'acentrer l'Internet.
 
 Cette association fait suite à la volonté de mutualisation d'un
 opérateur Internet entre ces structures ainsi qu'une volonté de créer
-une espace de partage de la connaissance et du savoir autour de la
+un espace de partage de la connaissance et du savoir autour de la
 fabrication de l'Internet en dehors du champ mercantile.
 
 L'association Gitoyen est ouverte aux structures qui partageraient sa
@@ -48,8 +48,8 @@ Notre participation à Gitoyen, sous forme de bénévolat, nous permet de :
 
 C'est lors de la Zelig Conf de 2001, réunion d'activistes et médias
 alternatifs œuvrant entre autre sur Internet, que se sont rencontrés
-Globenet, Placenet et Netaktiv, bien vite rejoint par FDN et Gandi, un
-nouveau bourgeon de l'Internet solidaire pouvait naître ...
+Globenet, Placenet et Netaktiv, bien vite rejoints par FDN et Gandi, un
+nouveau bourgeon de l'Internet solidaire pouvait naître...
 
 ### L'objet connecté non identifié
 
@@ -100,12 +100,12 @@ d'échelle nécessaires à la réalisation de ce rêve.
 Le rêve s'est donc réalisé en 2001. Comme tout projet un peu fou, il emprunta
 alors un chemin sinueux vers une maturité désormais acquise. Certains sont
 partis (Gandi, Placenet, Cursys, Artefact) et d'autres nous ont rejoint (Altern,
-L'autre.net, LDN, Neutrinet, Franciliens.net, Ilico, Illyse, Grenode et
-Tetaneutral.net), et l'esprit du réseau reste le même.
+L'autre.net, LDN, Neutrinet, Franciliens.net, Ilico, Illyse, Grenode,
+Tetaneutral.net et Rézine), et l'esprit du réseau reste le même.
 
 ## L'équipage
 
-Une partie d'entre nous a étudié l'informatique à l'école, l'autre non. Au fil
+Une partie d'entre nous a étudié l'informatique à l'école, d'autres non. Au fil
 des années, nous avons acquis de bonnes connaissances dans le domaine des
 réseaux grâce à nos pratiques (professionnelles, associatives, personnelles) et
 nos échanges avec d'autres, dans la même pièce ou à l'autre bout du monde. Une
@@ -151,6 +151,7 @@ Les membres de Gitoyen sont, à ce jour
 * [L'autre.net](http://lautre.net/), Hébergeur associatif autogéré depuis 2001.
 * [Neutrinet](http://neutrine.be/), Association fournisseur d'accès à Internet en Belgique.
 * [Tetaneutral.net](http://tetaneutral.net/), Association fournisseur d'accès à Internet à Toulouse.
+* [Rézine](http://www.rezine.org/), Association fournisseur d'accès à Internet en région grenobloise.
 
 ## Les Statuts
 
@@ -167,3 +168,4 @@ d'envoyer un formulaire d'adhésion à notre adresse postale.
 
 Nous nous réunissons tous les mois physiquement ou virtuellement, c'est aussi un
 bon moyen de se tenir au courant des avancées de l'association et d'aider.
+

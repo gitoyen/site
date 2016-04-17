@@ -16,7 +16,7 @@ clients.
 ### Hébergement d'équipement
 
 Gitoyen dispose de deux points de présence basés à Paris avec notre propre
-espace d'hébergement d'équipement. L'un à Téléhouse - Paris Voltaire et l'autre
+espace d'hébergement d'équipement. L'un à Téléhouse – Paris Voltaire – et l'autre
 à Paris Bourse.
 
 Nous sommes en mesure de proposer de l'**hébergement d'équipement** à nos
@@ -24,7 +24,7 @@ membres et nos clients.
 
 ### LIR / Obtention de ressources Internet
 
-Gitoyen est un *registre local d'Internet* (LIR). Cela lui donne la possibilité
+Gitoyen est un **registre local d'Internet** (LIR). Cela lui donne la possibilité
 d'assigner des ressources : blocs d'adresses IP ou numéros d'AS.
 
 Il y a deux types de ressources facturées :
@@ -33,7 +33,7 @@ Il y a deux types de ressources facturées :
   impose une facturation spécifique (les ressources **Provider Independant
   (PI)**) ;
 
-* Les autres ne nécessitant pas de contrat spécifique (**Provider Aggregate
+* Les autres ne nécessitant pas de contrat spécifique (**Provider Aggregated
   (PA)**, **Autonomous System (AS)**.
 
 ### Commutation et Routage
@@ -81,23 +81,31 @@ routage (qui comprend l'infrastructure de commutation).
 Pour un exemple chiffré (par rapport à Gitoyen), pour une petite asso (moins de
 20 000 € de CA) dans un cas type, sans parler de l'adhésion cela donne :
 
+<!-- Il manque l'exemple ici -->
+
 ## Peering
 
 Gitoyen est un opérateur courtois et ouvert. Notre politique de
 peering est ouverte elle aussi : Il vous suffit de nous demander par
 mail à peering (at) gitoyen (dot) net.
 
-Nous avons déjà une bonne centaine d'accords de peering. Vous pouvez aussi utiliser l'outil Looking Glass ou voir la base RPSL de nos peerings dans la base du RIPE-NCC.
+Nous avons déjà une bonne centaine d'accords de peering. Vous pouvez aussi
+utiliser l'outil Looking Glass ou voir la base RPSL de nos peerings dans la
+base du RIPE-NCC.
 
 ### Comment établir un peering avec Gitoyen ?
 
-Pour monter un peering avec Gitoyen, vous aurez besoin des informations techniques suivantes :
+Pour monter un peering avec Gitoyen, vous aurez besoin des informations
+techniques suivantes :
 
 * Notre numéro de système autonome est AS20766
 * Nous annonçons l'AS-Macro AS-GITOYEN.
 * L'email du NOC est `noc@`
-* Nous n'utilisons pas la signature MD5 des sessions BGP. Si vous vous demandez pourquoi, rendez-vous dans la RFC 2385 chapitre 4.
+* Nous n'utilisons pas la signature MD5 des sessions BGP. Si vous vous demandez
+  pourquoi, rendez-vous dans la [RFC 2385](https://www.rfc-editor.org/rfc/rfc2385.txt)
+  chapitre 4.
 
 ### Points de peering
 
-Nos points de peering sont listés sur la page de l'AS20766 sur [peeringdb](https://as20766.peeringdb.com)
+Nos points de peering sont listés sur la page de l'AS20766 sur [peeringdb](https://as20766.peeringdb.com).
+

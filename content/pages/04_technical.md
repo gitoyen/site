@@ -1,3 +1,4 @@
 Title: Côté technique
 
-Apprends neophyte !
+Apprends néophyte !
+

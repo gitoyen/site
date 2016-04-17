@@ -10,12 +10,12 @@ save_as: contact.html
 
 
 <h3>Par mail</h3>
-<div class="row"> 
+<div class="row">
 <section class="mails">
 	<ul>
 		<li> <strong>contact@</strong> - un bon premier point de contact</li>
 		<li> <strong>noc@</strong> - si vous avez des soucis « opérateur » (problèmes de routage, de transit,…)</li>
-		<li> <strong>peering@</strong> - si vous souhaitez établir une session de peering avec nous </li> 
+		<li> <strong>peering@</strong> - si vous souhaitez établir une session de peering avec nous </li>
 		<li> <strong>abuse@</strong> - l'adresse est lue ;)</li>
 	</ul>
 </section>
@@ -38,7 +38,7 @@ save_as: contact.html
 <div class="row">
 <section class="courrier">
 	<p class="adresse">
-	    <strong>Gitoyen<br></strong>	
+	    <strong>Gitoyen<br></strong>
 	    21 ter rue Voltaire<br>
 	    75011 Paris
 	</p>
@@ -60,9 +60,9 @@ save_as: contact.html
 <h3>Contact d'urgence</h3>
 <div class="row">
 <section class="urgence">
-	En cas d'extrême urgence, et si le contact mail `contact@` ne réponds pas,
-	Gitoyen peut aussi être contacté par téléphone via le numéro fournit dans la
-	base de donné du RIPE.<br>
+	En cas d'extrême urgence, et si le contact mail `contact@` ne répond pas,
+	Gitoyen peut aussi être contacté par téléphone via le numéro fourni dans la
+	base de données du RIPE.<br>
 	<strong>whois -h whois.ripe.net AS20766</strong>
 </section>
 </div>
