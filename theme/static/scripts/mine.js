@@ -3,10 +3,20 @@ var hash = window.location.hash;
 
 window.location.hash = ''; // avoid going to anchor
 
-
 $window.on('load', function() {
+
   var content = $('#content');
   var size = 24; // magic number !
+
+  $('.burger').on('click',function(){
+    $('#banner nav').toggleClass('opened');
+    $('.cacheMenu').fadeToggle();
+  });
+
+  $('.cacheMenu').on('click',function(){
+    $('#banner nav').toggleClass('opened');
+    $('.cacheMenu').fadeToggle();
+  });
 
   // nav is not displayed on small screens so no need to continue
   if (window.matchMedia('(max-width: 40rem)').matches) {
@@ -67,14 +77,5 @@ $window.on('load', function() {
     );
   }
 
-  $('.burger').on('click',function(){
-    $('#banner nav').toggleClass('opened');
-    $('.cacheMenu').fadeToggle();
-  });
-
-  $('.cacheMenu').on('click',function(){
-    $('#banner nav').toggleClass('opened');
-    $('.cacheMenu').fadeToggle();
-  });
-
 });
+
