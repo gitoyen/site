@@ -6,14 +6,14 @@ Entry: Gitoyen
 
 Gitoyen est depuis Janvier 2012 une association loi 1901. Elle a pour
 but de faciliter l'émergence et l'existence de petits opérateurs
-réseaux, en particulier dans le but d'acentrer l'Internet.
+réseaux, en particulier dans le but de décentraliser Internet.
 
-Cette association fait suite à la volonté de mutualisation d'un
-opérateur Internet entre ces structures ainsi qu'une volonté de créer
-un espace de partage de la connaissance et du savoir autour de la
-fabrication de l'Internet en dehors du champ mercantile.
+Cette association est née de la volonté de mutualiser le réseau entre plusieurs 
+structures ainsi qu'une volonté de créer un espace de partage de la 
+connaissance et du savoir autour de la fabrication de l'Internet en dehors du 
+champ mercantile.
 
-L'association Gitoyen est ouverte aux structures qui partageraient sa
+L'association Gitoyen est ouverte aux structures qui partagent sa
 démarche.
 
 ## Nos valeurs
@@ -21,7 +21,7 @@ démarche.
 <div class="col1of1">
   <div class="col1of3">
     <img src="../images/nonprofit.jpg" alt="Pas de profits" class="col1of1 row7 p2">
-    <p>Pas de profits</p>
+    <p>Pas de profit</p>
   </div>
 
   <div class="col1of3">
@@ -38,8 +38,8 @@ démarche.
 
 Notre participation à Gitoyen, sous forme de bénévolat, nous permet de :
 
-* construire un opérateur sans but lucratif, respectant la neutralité du réseau,
-* partager nos connaissances, nos expériences avec les autres bénévoles,
+* construire un opérateur sans but lucratif, respectant la neutralité du Net,
+* partager nos connaissances, nos expériences entre les bénévoles,
 * aider d'autres opérateurs sans but lucratif à faire de même.
 
 ## Histoire de l'association
@@ -49,7 +49,7 @@ Notre participation à Gitoyen, sous forme de bénévolat, nous permet de :
 C'est lors de la Zelig Conf de 2001, réunion d'activistes et médias
 alternatifs œuvrant entre autre sur Internet, que se sont rencontrés
 Globenet, Placenet et Netaktiv, bien vite rejoints par FDN et Gandi, un
-nouveau bourgeon de l'Internet solidaire pouvait naître...
+nouveau bourgeon de l'Internet solidaire pouvait naître…
 
 ### L'objet connecté non identifié
 
@@ -78,16 +78,16 @@ finalement.
 en commun leurs compétences et leurs moyens pour créer un nouveau
 fournisseur d'infrastructure d'hébergement et d'accès à Internet.
 
-L'objectif aussi était nouveau : il s'agit "de fournir une offre
+L'objectif aussi était nouveau : il s'agit « de fournir une offre
 alternative dans un but non marchand et un cadre principalement
-citoyen, associatif et social". Nous voulons permettre l'existence
+citoyen, associatif et social ». Nous voulons permettre l'existence
 d'un Internet non marchand indépendant du monde marchand : quoi de
 plus logique ? La nouveauté c'est aussi que Gitoyen n'a aucune
 vocation de rentabilité.
 
 Qu'au delà des idéaux communs de ses membres, il est apparu qu'il
 était désormais possible de créer en France une structure d'accueil de
-tous ceux qui partagent ces idéaux, et que puisque c'est possible,
+tous celles et ceux qui partagent ces idéaux, et que puisque c'est possible,
 alors il faut le faire.
 
 Le financement de Gitoyen est entièrement assuré par ses membres, et
@@ -111,12 +111,6 @@ réseaux grâce à nos pratiques (professionnelles, associatives, personnelles) 
 nos échanges avec d'autres, dans la même pièce ou à l'autre bout du monde. Une
 partie d'entre nous exerce une activité professionnelle dans l'informatique,
 elle est pour l'autre un outil au service de leur activité ou une passion.
-
-Notre participation à Gitoyen, sous forme de bénévolat, nous permet de :
-
-* construire un opérateur sans but lucratif, respectant la neutralité du réseau,
-* partager nos connaissances, nos expériences avec les autres bénévoles,
-* aider d'autres opérateurs sans but lucratif à faire de même.
 
 ## Règlement Intérieur
 
@@ -146,8 +140,8 @@ Les membres de Gitoyen sont, à ce jour
 * [Lorraine Data Network](http://ldn-fai.net), Association fournisseur d'accès à Internet depuis 2010 (basé en Lorraine).
 * [Franciliens.net](http://franciliens.net/), Association fournisseur d'accès à Internet en Ile-de-France.
 * [Grenode](http://grenode.net/), Association très semblable à Gitoyen (LIR, Opérateur réseau associatif), basé à Grenoble.
-* [Ilico.org](http://ilico.org/), Association fournisseur d'accès à Internet en Corrèze.
-* [Illyse.net](http://illyse.net/), Association fournisseur d'accès à Internet à Lyon et Saint-Étienne
+* [Ilico](http://ilico.org/), Association fournisseur d'accès à Internet en Corrèze.
+* [Illyse](http://illyse.net/), Association fournisseur d'accès à Internet à Lyon et Saint-Étienne
 * [L'autre.net](http://lautre.net/), Hébergeur associatif autogéré depuis 2001.
 * [Neutrinet](http://neutrine.be/), Association fournisseur d'accès à Internet en Belgique.
 * [Tetaneutral.net](http://tetaneutral.net/), Association fournisseur d'accès à Internet à Toulouse.
@@ -161,9 +155,9 @@ Voir les [Statuts](Statuts.md)
 
 Gitoyen est depuis Janvier 2012 une association. Elle a pour but de
 faciliter l'émergence et l'existence de petits opérateurs réseaux, en
-particulier dans le but d'acentrer l'Internet.
+particulier dans le but de décentraliser Internet.
 
-Pour nous rejoindre il suffit juste de se manifester via un moyen de contact, et
+Pour nous rejoindre, il suffit juste de se manifester via un moyen de contact et
 d'envoyer un formulaire d'adhésion à notre adresse postale.
 
 Nous nous réunissons tous les mois physiquement ou virtuellement, c'est aussi un

@@ -51,7 +51,7 @@ save_as: contact.html
 <section class="cpt-twitter">
 	<ul>
 		<li><a href="https://twitter.com/gitoyen">@gitoyen</a> pour la communication formelle, et les annonces.</li>
-		<li><a href="https://twitter.com/as20766">@as20766</a> plus informel..</li>
+		<li><a href="https://twitter.com/as20766">@as20766</a> plus informel.</li>
 	</ul>
 </section>
 </div>

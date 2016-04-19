@@ -15,11 +15,11 @@ clients.
 
 ### Hébergement d'équipement
 
-Gitoyen dispose de deux points de présence basés à Paris avec notre propre
-espace d'hébergement d'équipement. L'un à Téléhouse – Paris Voltaire – et l'autre
+Gitoyen dispose de deux points de présence basés à Paris avec son propre
+espace d'hébergement d'équipements. L'un à Téléhouse – Paris Voltaire – et l'autre
 à Paris Bourse.
 
-Nous sommes en mesure de proposer de l'**hébergement d'équipement** à nos
+Nous sommes en mesure de proposer de l'**hébergement d'équipements** à nos
 membres et nos clients.
 
 ### LIR / Obtention de ressources Internet
@@ -86,10 +86,10 @@ Pour un exemple chiffré (par rapport à Gitoyen), pour une petite asso (moins d
 ## Peering
 
 Gitoyen est un opérateur courtois et ouvert. Notre politique de
-peering est ouverte elle aussi : Il vous suffit de nous demander par
+peering est ouverte elle aussi : il vous suffit de nous contacter par
 mail à peering (at) gitoyen (dot) net.
 
-Nous avons déjà une bonne centaine d'accords de peering. Vous pouvez aussi
+Nous avons déjà une bonne cinquantaine d'accords de peering. Vous pouvez aussi
 utiliser l'outil Looking Glass ou voir la base RPSL de nos peerings dans la
 base du RIPE-NCC.
 
@@ -98,9 +98,9 @@ base du RIPE-NCC.
 Pour monter un peering avec Gitoyen, vous aurez besoin des informations
 techniques suivantes :
 
-* Notre numéro de système autonome est AS20766
-* Nous annonçons l'AS-Macro AS-GITOYEN.
-* L'email du NOC est `noc@`
+* Notre numéro de système autonome est AS20766,
+* Nous annonçons l'AS-Macro AS-GITOYEN,
+* L'email du NOC est `noc@`,
 * Nous n'utilisons pas la signature MD5 des sessions BGP. Si vous vous demandez
   pourquoi, rendez-vous dans la [RFC 2385](https://www.rfc-editor.org/rfc/rfc2385.txt)
   chapitre 4.
