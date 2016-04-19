@@ -8,9 +8,9 @@ Gitoyen est depuis Janvier 2012 une association loi 1901. Elle a pour
 but de faciliter l'émergence et l'existence de petits opérateurs
 réseaux, en particulier dans le but de décentraliser Internet.
 
-Cette association est née de la volonté de mutualiser le réseau entre plusieurs 
-structures ainsi qu'une volonté de créer un espace de partage de la 
-connaissance et du savoir autour de la fabrication de l'Internet en dehors du 
+Cette association est née de la volonté de mutualiser le réseau entre plusieurs
+structures ainsi qu'une volonté de créer un espace de partage de la
+connaissance et du savoir autour de la fabrication de l'Internet en dehors du
 champ mercantile.
 
 L'association Gitoyen est ouverte aux structures qui partagent sa
