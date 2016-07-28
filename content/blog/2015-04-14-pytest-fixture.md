@@ -3,12 +3,12 @@ Category: tuto
 Tags: python, dev
 
 I am a huge fan of python (one of the best language in my toolbox). And
-when it comes to tests, [pytest](http://pytest.org/) is *THE* library to use.
+when it comes to test, [pytest](http://pytest.org/) is *THE* library to use.
 
 I also use [Flask](http://flask.pocoo.org/) a lot, so today I will show you
 some of my snippets.
 
-This create an app fixture which will be used to test the application, it
+This creates an app fixture which will be used for testing the application, it
 returns a test client to interact with my Flask application.
 
 It is an adaptation of the documentation [testing skeleton]
@@ -28,11 +28,11 @@ def request_context(app):
 
 This one applies a request context on a testing function, this can be
 useful if you manipulate werzeug interactions (flask request attribute mostly).
-This has to be use when the
+This has to be used when the
 `RuntimeError: working outside of application context` error is raised.
 
 In the most common use case you will not need the `req_context` variable during
-your test. To avoid to have an unused argument, you can simply use the
+your test. To avoid having an unused argument, you can simply use the
 `@pytest.mark.usefixtures('request_context')` decorator on your testing
 function.
 
@@ -59,5 +59,5 @@ def mock_transaction():
     imp.reload(module.using.db.transactions)
 ```
 
-Pytest use a lot of the python flexibility and I must confess that I love it.
+Pytest uses a lot of the python flexibility and I must confess that I love it.
 
