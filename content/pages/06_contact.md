@@ -66,13 +66,3 @@ save_as: contact.html
 	<strong>whois -h whois.ripe.net AS20766</strong>
 </section>
 </div>
-
-<h2>Outils pour les opérateurs</h2>
-
-<ul>
-	<li><a href="http://lg.gitoyen.net/">Looking-glass</a></li>
-	<li><a href="http://ring.nlnog.net/">Ring nlnog</a></li>
-	<li><a href="http://debian.gitoyen.net/">Mirroir debian</a></li>
-	<li><a href="http://observium.gitoyen.net/">Observium</a></li>
-	<li><a href="http://smokeping.gitoyen.net/">Smokeping</a></li>
-</ul>
