@@ -41,7 +41,7 @@
         <nav>
           <ul>
             {% if DISPLAY_PAGES_ON_MENU -%}
-            {% for pg in PAGES %}
+            {% for pg in pages %}
             <li {% if pg|is_active %} class="active"{% endif %}>
               <a href="{{ SITEURL }}/{{ pg.url }}">{{ pg.entry or pg.title }}</a>
             </li>

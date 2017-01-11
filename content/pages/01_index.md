@@ -50,7 +50,7 @@ save_as: index.html
     <p>Aider d'autres opérateurs sans but lucratif à faire de même.</p>
   </div>
 
-  <a href="gitoyen.html" class="bouton">Plus d'info sur Gitoyen</a>
+  <a href="gitoyen.html" class="bouton">Plus d'infos sur Gitoyen</a>
 
 </section>
 
