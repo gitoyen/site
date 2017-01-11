@@ -23,11 +23,11 @@ THEME = './theme'
 
 class Config(object):
     def __init__(self):
-        self.settings = path.path(PELICAN_CONF)
-        self.output = path.path(OUTPUT)
-        self.content = path.path(CONTENT)
-        self.blog = path.path(BLOG)
-        self.theme = path.path(THEME)
+        self.settings = path.Path(PELICAN_CONF)
+        self.output = path.Path(OUTPUT)
+        self.content = path.Path(CONTENT)
+        self.blog = path.Path(BLOG)
+        self.theme = path.Path(THEME)
         self.jinja = jinja2.Environment(
             loader=jinja2.PackageLoader('gitoyen', 'templates')
         )
