@@ -23,9 +23,11 @@ CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+RSS_FEED_SUMMARY_ONLY = False
 
 # Social
 TWITTER_USERNAME = 'gitoyen'
+
 
 JINJA_FILTERS = {'is_active': filters.is_active}
 
@@ -47,13 +49,13 @@ PLUGINS = ['pelican-toc']
 STATIC_PATHS = ['images', 'extra/favicon.ico']
 
 TOC = {
-    'TOC_HEADERS' : '^h[2]',
+    'TOC_HEADERS': '^h[2]',
     'TOC_RUN': 'true'
 }
 
 MD_EXTENSIONS = ['attr_list', 'codehilite(css_class=highlight)', 'extra']
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'}
