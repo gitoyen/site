@@ -46,7 +46,7 @@ INDEX_SAVE_AS = 'blog.html'
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['pelican-toc']
 
-STATIC_PATHS = ['images', 'extra/favicon.ico']
+STATIC_PATHS = ['images', 'extra/favicon.ico', 'upload' ]
 
 TOC = {
     'TOC_HEADERS': '^h[2]',

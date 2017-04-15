@@ -49,8 +49,10 @@ Nous proposons à nos membres la possibilité d'utiliser :
 
 ## Les tarifs
 
-TODO: ajouter le pdf ou bien faire un tableau html
+Les tarifs sont mis à jour à minima tous les ans. La dernière mise à jour date
+du 15 avril 2017.
 
+ * [Format PDF](upload/tarifs-2017.pdf)
 
 ### Quelques cas d'usage
 
@@ -108,4 +110,3 @@ techniques suivantes :
 ### Points de peering
 
 Nos points de peering sont listés sur la page de l'AS20766 sur [peeringdb](https://as20766.peeringdb.com).
-
