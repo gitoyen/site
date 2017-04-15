@@ -147,6 +147,7 @@ Les membres de Gitoyen sont, à ce jour
 * [Neutrinet](http://neutrine.be/), Association fournisseur d'accès à Internet en Belgique.
 * [Rézine](http://www.rezine.org/), Association fournisseur d'accès à Internet en région grenobloise.
 * [Tetaneutral.net](http://tetaneutral.net/), Association fournisseur d'accès à Internet à Toulouse.
+
 ## Les Statuts
 
 Voir les [Statuts](upload/statuts-2014-10-21.pdf)
