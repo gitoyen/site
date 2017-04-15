@@ -1,7 +1,5 @@
 # Pages
 
-* index: css, le 3. de commutation « mange » le texte de 1.
-
 * gitoyen: css, fix de la fin du lien de points sur la gauche (derrnier point)
 * gitoyen: ring nlnog, pas encore :)
 * gitoyen: ajouter Dec-IX?

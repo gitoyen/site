@@ -63,7 +63,7 @@ save_as: index.html
     <li class="col1of2 row8">
     <span>1.</span>
     <h4>Transit Internet</h4>
-    <p>Gitoyen est un opérateur Internet disposant de ses propres liens de communication avec le reste d'Internet. Dans ce cadre, nous sommes en mesure de fournir une vue complète d'Internet (du Transit) à nos membres ou nos clients.</p>
+    <p>Gitoyen est un opérateur Internet disposant de sa propre infrastructure. Dans ce cadre, nous sommes en mesure de fournir une vue complète d'Internet (du Transit) à nos membres ou nos clients.</p>
     </li>
 
     <li class="col1of2 row8">
