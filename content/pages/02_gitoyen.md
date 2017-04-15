@@ -136,17 +136,16 @@ Les membres de Gitoyen sont, à ce jour
 
 * [Altern](http://www.altern.org/), la société de Valentin Lacambre.
 * [FDN](http://www.fdn.fr/), Association fournisseur d'accès à Internet depuis 1992.
-* [Globenet](http://www.globenet.org/), L'hébergeur historique des ONG, créateur du projet No-Log.
-* [Lorraine Data Network](http://ldn-fai.net), Association fournisseur d'accès à Internet depuis 2010 (basé en Lorraine).
 * [Franciliens.net](http://franciliens.net/), Association fournisseur d'accès à Internet en Ile-de-France.
+* [Globenet](http://www.globenet.org/), L'hébergeur historique des ONG, créateur du projet No-Log.
 * [Grenode](http://grenode.net/), Association très semblable à Gitoyen (LIR, Opérateur réseau associatif), basé à Grenoble.
 * [Ilico](http://ilico.org/), Association fournisseur d'accès à Internet en Corrèze.
 * [Illyse](http://illyse.net/), Association fournisseur d'accès à Internet à Lyon et Saint-Étienne
+* [Lorraine Data Network](http://ldn-fai.net), Association fournisseur d'accès à Internet depuis 2010 (basé en Lorraine).
 * [L'autre.net](http://lautre.net/), Hébergeur associatif autogéré depuis 2001.
 * [Neutrinet](http://neutrine.be/), Association fournisseur d'accès à Internet en Belgique.
-* [Tetaneutral.net](http://tetaneutral.net/), Association fournisseur d'accès à Internet à Toulouse.
 * [Rézine](http://www.rezine.org/), Association fournisseur d'accès à Internet en région grenobloise.
-
+* [Tetaneutral.net](http://tetaneutral.net/), Association fournisseur d'accès à Internet à Toulouse.
 ## Les Statuts
 
 Voir les [Statuts](upload/statuts-2014-10-21.pdf)
