@@ -139,6 +139,7 @@ Les membres de Gitoyen sont, à ce jour
 * [Franciliens.net](http://franciliens.net/), Association fournisseur d'accès à Internet en Ile-de-France.
 * [Globenet](http://www.globenet.org/), L'hébergeur historique des ONG, créateur du projet No-Log.
 * [Grenode](http://grenode.net/), Association très semblable à Gitoyen (LIR, Opérateur réseau associatif), basé à Grenoble.
+* [Hadoly](http://hadoly.fr/), Hadoly est un hébergeur associatif, militant et local, à Lyon.
 * [Ilico](http://ilico.org/), Association fournisseur d'accès à Internet en Corrèze.
 * [Illyse](http://illyse.net/), Association fournisseur d'accès à Internet à Lyon et Saint-Étienne
 * [Lorraine Data Network](http://ldn-fai.net), Association fournisseur d'accès à Internet depuis 2010 (basé en Lorraine).
