@@ -150,7 +150,7 @@ Les membres de Gitoyen sont, à ce jour
 
 ## Les Statuts
 
-Voir les [Statuts](Statuts.md)
+Voir les [Statuts](upload/statuts-2014-10-21.pdf)
 
 ## Comment adhérer à l'association
 
@@ -163,4 +163,3 @@ d'envoyer un formulaire d'adhésion à notre adresse postale.
 
 Nous nous réunissons tous les mois physiquement ou virtuellement, c'est aussi un
 bon moyen de se tenir au courant des avancées de l'association et d'aider.
-
