@@ -1,8 +1,6 @@
 # Pages
 
 * gitoyen: css, fix de la fin du lien de points sur la gauche (derrnier point)
-* gitoyen: ring nlnog, pas encore :)
-* gitoyen: ajouter Dec-IX?
 * gitoyen: Lien vers les status?
 
 * services: tableau des tarfis? ou lien vers le pdf

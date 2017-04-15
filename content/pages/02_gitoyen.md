@@ -124,6 +124,7 @@ Gitoyen est membre ou est présent sur plusieurs points d'échange (aussi appel�
 
 * [FranceIX](http://www.franceix.net)
 * [EquinIX](http://www.equinix.net)
+* [DEC-IX](https://www.de-cix.net/en/locations/germany/frankfurt)
 * [AMSIX](http://amsix.net)
 * [SfinIX](http//renater.fr/Sfinx)
 
