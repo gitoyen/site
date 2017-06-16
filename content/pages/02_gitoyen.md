@@ -114,6 +114,8 @@ elle est pour l'autre un outil au service de leur activité ou une passion.
 
 ## Règlement Intérieur
 
+* [Format PDF](upload/gitoyen-reglement-interieur-20111026.pdf)
+
 ## Gitoyen est membre de
 
 * [Fédération FDN](http://www.ffdn.org/)
@@ -160,6 +162,9 @@ particulier dans le but de décentraliser Internet.
 
 Pour nous rejoindre, il suffit juste de se manifester via un moyen de contact et
 d'envoyer un formulaire d'adhésion à notre adresse postale.
+
+  * Bulletin d'adhésion ([Personne morale](upload/gitoyen-bulletin-adhesion.pdf) | [Personne physique](upload/gitoyen-bulletin-adhesion-pp.pdf))
+  * [Autorisation de prélèvement](upload/gitoyen-cm-autorisation-prelevement.pdf)
 
 Nous nous réunissons tous les mois physiquement ou virtuellement, c'est aussi un
 bon moyen de se tenir au courant des avancées de l'association et d'aider.
