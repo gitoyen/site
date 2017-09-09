@@ -146,7 +146,7 @@ Les membres de Gitoyen sont, à ce jour
 * [Illyse](http://illyse.net/), Association fournisseur d'accès à Internet à Lyon et Saint-Étienne
 * [Lorraine Data Network](http://ldn-fai.net), Association fournisseur d'accès à Internet depuis 2010 (basé en Lorraine).
 * [L'autre.net](http://lautre.net/), Hébergeur associatif autogéré depuis 2001.
-* [Neutrinet](http://neutrine.be/), Association fournisseur d'accès à Internet en Belgique.
+* [Neutrinet](http://neutrinet.be/), Association fournisseur d'accès à Internet en Belgique.
 * [Rézine](http://www.rezine.org/), Association fournisseur d'accès à Internet en région grenobloise.
 * [Tetaneutral.net](http://tetaneutral.net/), Association fournisseur d'accès à Internet à Toulouse.
 
