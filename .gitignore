@@ -1,5 +1,5 @@
 cache
 output
-.v
+.venv
 *.pyc
 *.egg-info
