@@ -38,7 +38,7 @@ sourcevenv:
 	fi
 
 install: venv sourcevenv
-	pip install -e .
+	@pip install -e .
 
 build: sourcevenv deps
 	gitoyen build
