@@ -118,17 +118,18 @@ elle est pour l'autre un outil au service de leur activité ou une passion.
 
 ## Gitoyen est membre de
 
-* [Fédération FDN](http://www.ffdn.org/)
-* [Ring NLnog](http://ring.nlnog.net/)
-* [The DCP Bay](http://tdcpb.org/)
+* [RIPE NCC](https://www.ripe.net/)
+* [Fédération FDN](https://www.ffdn.org/)
+* [Ring NLnog](https://ring.nlnog.net/)
+* [The DCP Bay](https://tdcpb.org/)
 
 Gitoyen est membre ou est présent sur plusieurs points d'échange (aussi appelés IX).
 
-* [FranceIX](http://www.franceix.net)
-* [EquinIX](http://www.equinix.net)
+* [FranceIX](https://www.franceix.net/fr)
+* [EquinIX](https://www.equinix.com)
 * [DEC-IX](https://www.de-cix.net/en/locations/germany/frankfurt)
-* [AMSIX](http://amsix.net)
-* [SfinIX](http//renater.fr/Sfinx)
+* [AMSIX](https://ams-ix.net/)
+* [SFINX](https://www.renater.fr/sfinx,1761?lang=fr)
 
 Nos points de peering sont listés sur la page de l'AS20766 sur [peeringdb](https://as20766.peeringdb.com)
 
