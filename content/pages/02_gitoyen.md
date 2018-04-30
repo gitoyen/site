@@ -100,7 +100,7 @@ d'échelle nécessaires à la réalisation de ce rêve.
 Le rêve s'est donc réalisé en 2001. Comme tout projet un peu fou, il emprunta
 alors un chemin sinueux vers une maturité désormais acquise. Certains sont
 partis (Gandi, Placenet, Cursys, Artefact) et d'autres nous ont rejoint (Altern,
-L'autre.net, LDN, Neutrinet, Franciliens.net, Ilico, Illyse, Grenode,
+L'autre.net, LDN, Neutrinet, Franciliens.net, Ilico, Grenode,
 Tetaneutral.net et Rézine), et l'esprit du réseau reste le même.
 
 ## L'équipage
@@ -145,7 +145,6 @@ Les membres de Gitoyen sont, à ce jour
 * [Grifon](https://grifon.fr), Association fournisseur d'accès à Internet à Rennes.
 * [Hadoly](http://hadoly.fr/), Hadoly est un hébergeur associatif, militant et local, à Lyon.
 * [Ilico](http://ilico.org/), Association fournisseur d'accès à Internet en Corrèze.
-* [Illyse](http://illyse.net/), Association fournisseur d'accès à Internet à Lyon et Saint-Étienne
 * [Lorraine Data Network](http://ldn-fai.net), Association fournisseur d'accès à Internet depuis 2010 (basé en Lorraine).
 * [L'autre.net](http://lautre.net/), Hébergeur associatif autogéré depuis 2001.
 * [Midways-Network](http://midways-network.org), Association fournisseur d'accès à Internet à Belfort.
