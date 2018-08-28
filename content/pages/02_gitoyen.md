@@ -149,6 +149,7 @@ Les membres de Gitoyen sont, à ce jour
 * [L'autre.net](http://lautre.net/), Hébergeur associatif autogéré depuis 2001.
 * [Midways-Network](http://midways-network.org), Association fournisseur d'accès à Internet à Belfort.
 * [Mycélium](https://mycelium-fai.org/), Association fournisseur d'accès à Internet à Lille.
+* [MilkyWan](https://milkywan.fr/), Réseau associatif, expérimental, avec l'idée de combiner FAI, transitaire et hébergeur.
 * [Neutrinet](http://neutrinet.be/), Association fournisseur d'accès à Internet en Belgique.
 * [Rézine](http://www.rezine.org/), Association fournisseur d'accès à Internet en région grenobloise.
 * [Rhizome](https://rhizome-fai.net/), Association fournisseur d'accès à Internet sur la ville de Compiègne (60).
