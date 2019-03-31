@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>Gitoyen - Tech</title><link>/</link><description></description><lastBuildDate>Mon, 07 Mar 2016 20:00:00 +0100</lastBuildDate><item><title>Yet another tutorial about Let's Encrypt</title><link>/blog/yet-another-tutorial-about-lets-encrypt.html</link><description>&lt;p&gt;&lt;img alt="Logo Let's Encrypt" src="//letsencrypt.org/images/letsencrypt-logo-horizontal.svg"/&gt;&lt;/p&gt;
+&lt;p&gt;Voil&amp;agrave; 1 million de certificats &lt;a href="//letsencrypt.org/"&gt;Let's Encrypt&lt;/a&gt; d&amp;eacute;livr&amp;eacute;s (les certificats d&amp;eacute;livr&amp;eacute;s par &lt;a href="https://crt.sh/?Identity=%25&amp;amp;iCAID=7395"&gt;Let's Encrypt&lt;/a&gt;); La litt&amp;eacute;rature sur le sujet ne manque pas, mais je vais quand m&amp;ecirc;me en apporter une de plus, pour la partie compilation :-)&lt;/p&gt;
+&lt;p&gt;Pour rappel, Let's Encrypt, est un projet port&amp;eacute; par l' &amp;laquo; Internet Security Research Group &amp;raquo; (ISRG), qui vise &amp;agrave; automatiser, rendre accessible &amp;agrave; tous, de mani&amp;egrave;re ouverte et gratuite, des certificats SSL&lt;/p&gt;
+&lt;h2 id="generation"&gt;G&amp;eacute;n&amp;eacute;ration&lt;/h2&gt;
+&lt;p&gt;Nous allons ici, ne pas utiliser le client officiel; principalement parce qu'il int&amp;egrave;gre trop de fonctionnalit&amp;eacute;s (serveur web int&amp;eacute;gr&amp;eacute;, &amp;hellip;), mais aussi parce qu'il ne r&amp;eacute;pond pas vraiment aux besoins de cet article (arborescence flexible, serveur nginx, &amp;hellip;; et que c'est plus facile &amp;agrave; lire un script de 200 lignes qu'un &amp;eacute;norme client&amp;hellip;)&lt;/p&gt;
+&lt;p&gt;Le client que nous allons utiliser est donc le &lt;a href="https://github.com/diafygi/acme-tiny"&gt;acme-tiny&lt;/a&gt; (&amp;eacute;crit en python). Lors de mes p&amp;eacute;r&amp;eacute;grinations sur la toile (oui ok &amp;ccedil;a fait un peu vieillot, j'aurais pu dire &amp;laquo; alors que je surfais sur le web &amp;raquo;, &amp;hellip; :-D), je suis tomb&amp;eacute; sur ce script &lt;a href="https://github.com/lukas2511/letsencrypt.sh"&gt;letsencrypt.sh&lt;/a&gt;. Le cot&amp;eacute; FQDN &amp;agrave; un endroit, et le rechargement lorsque les AltNames changent sont des features appr&amp;eacute;ciables. Apr&amp;egrave;s c'est du bash, donc comme vous voulez :)&lt;/p&gt;
+&lt;h3&gt;Cr&amp;eacute;ation des certificats&lt;/h3&gt;
+&lt;p&gt;De mon cot&amp;eacute;, j'ai opt&amp;eacute; pour une arborescence de ce type (certificats g&amp;eacute;n&amp;eacute;r&amp;eacute;s dans un r&amp;eacute;pertoire d&amp;eacute;di&amp;eacute;, avec un utilisateur d&amp;eacute;di&amp;eacute;).&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ mkdir -p /etc/letsencrypt/&lt;span class="o"&gt;{&lt;/span&gt;certs,challenges,csr,pem,private&lt;span class="o"&gt;}&lt;/span&gt;
+/etc/letsencrypt/
+├── certs
+├── challenges
+├── csr
+├── pem
+└── private
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Il suffit donc alors de :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cr&amp;eacute;er une cl&amp;eacute; pour le domaine en question&lt;/li&gt;
+&lt;li&gt;Cr&amp;eacute;er une demande de signature (CSR) en y incluant les noms DNS alternatifs&lt;/li&gt;
+&lt;li&gt;Lancer le client (qui va se charger de cr&amp;eacute;er un challenge) et signer si le challenge est ok.&lt;/li&gt;
+&lt;li&gt;T&amp;eacute;l&amp;eacute;charger et concat&amp;eacute;ner le certificat obtenu avec le certificat interm&amp;eacute;diaire de Let's Encrypt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Le challenge sert ici &amp;agrave; ce que let's encrypt v&amp;eacute;rifie que nous contr&amp;ocirc;lons bien le
+domaine pour lequel nous demandons un certificat. Il faut d'ailleurs ajouter &amp;agrave;
+la configuration du serveur web, l'endroit o&amp;ugrave; seront stock&amp;eacute;s ces challenges.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;location&lt;/span&gt; &lt;span class="s"&gt;/.well-known/acme-challenge/&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="kn"&gt;alias&lt;/span&gt; &lt;span class="s"&gt;/etc/letsencrypt/challenges/gitoyen.net/&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="kn"&gt;try_files&lt;/span&gt; &lt;span class="nv"&gt;$uri&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;404&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;C&amp;ocirc;t&amp;eacute; certificat interm&amp;eacute;diaire, ils sont disponibles sur le site de &lt;a href="https://letsencrypt.org/certificates/"&gt;Let's Encrypt&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Bon donc du coup &amp;ccedil;a donne cela dans un mini-script (pas super beau&amp;hellip;)&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="ch"&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class="c1"&gt;# bootstrap letsencrypt&lt;/span&gt;
+
+&lt;span class="nv"&gt;account&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nv"&gt;$1&lt;/span&gt;
+&lt;span class="nv"&gt;cert&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nv"&gt;$2&lt;/span&gt;
+&lt;span class="nv"&gt;dns&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nv"&gt;$3&lt;/span&gt;
+
+mkdir -p /etc/letsencrypt/&lt;span class="o"&gt;{&lt;/span&gt;certs,challenges,csr,pem,private&lt;span class="o"&gt;}&lt;/span&gt;
+
+&lt;span class="nb"&gt;pushd&lt;/span&gt; /etc/letsencrypt
+  &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="o"&gt;[[&lt;/span&gt; ! -f &lt;span class="s2"&gt;"./private/&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;account&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;.key"&lt;/span&gt; &lt;span class="o"&gt;]]&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="k"&gt;then&lt;/span&gt;
+    openssl genrsa &lt;span class="m"&gt;4096&lt;/span&gt; &amp;gt; &lt;span class="s2"&gt;"./private/&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;account&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;.key"&lt;/span&gt;
+  &lt;span class="k"&gt;fi&lt;/span&gt;
+  &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="o"&gt;[[&lt;/span&gt; ! -f ./pem/intermediate.pem &lt;span class="o"&gt;]]&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="k"&gt;then&lt;/span&gt;
+    wget -O - https://letsencrypt.org/certs/lets-encrypt-x1-cross-signed.pem &amp;gt; ./pem/intermediate.pem
+  &lt;span class="k"&gt;fi&lt;/span&gt;
+  &lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;"##### &lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;cert&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt; #####"&lt;/span&gt;
+  &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="o"&gt;[[&lt;/span&gt; ! -f &lt;span class="s2"&gt;"./private/&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;cert&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;.key"&lt;/span&gt; &lt;span class="o"&gt;]]&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="k"&gt;then&lt;/span&gt;
+    openssl genrsa &lt;span class="m"&gt;4096&lt;/span&gt; &amp;gt; &lt;span class="s2"&gt;"./private/&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;cert&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;.key"&lt;/span&gt;
+  &lt;span class="k"&gt;fi&lt;/span&gt;
+  mkdir -p &lt;span class="s2"&gt;"./challenges/&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;cert&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;"&lt;/span&gt;
+  openssl req -new -sha256 -key &lt;span class="s2"&gt;"./private/&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;cert&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;.key"&lt;/span&gt; -subj &lt;span class="s2"&gt;"/"&lt;/span&gt; -reqexts SAN -config &amp;lt;&lt;span class="o"&gt;(&lt;/span&gt;cat /etc/ssl/openssl.cnf &amp;lt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;printf&lt;/span&gt; &lt;span class="s2"&gt;"[SAN]\nsubjectAltName=%s"&lt;/span&gt; &lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;dns&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="o"&gt;))&lt;/span&gt; &amp;gt; &lt;span class="s2"&gt;"./csr/&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;cert&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;.csr"&lt;/span&gt;
+  acme_tiny.py --account-key &lt;span class="s2"&gt;"./private/&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;account&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;.key"&lt;/span&gt; --csr &lt;span class="s2"&gt;"./csr/&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;cert&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;.csr"&lt;/span&gt; --acme-dir &lt;span class="s2"&gt;"/etc/letsencrypt/challenges/&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;cert&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;/"&lt;/span&gt; &amp;gt; &lt;span class="s2"&gt;"./certs/&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;cert&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;.crt"&lt;/span&gt;
+  cat &lt;span class="s2"&gt;"./certs/&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;cert&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;.crt"&lt;/span&gt; ./pem/intermediate.pem &amp;gt; &lt;span class="s2"&gt;"./pem/&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;cert&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;.pem"&lt;/span&gt;
+&lt;span class="nb"&gt;popd&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Qu'il suffit de lancer comme ceci (pour l'exemple je g&amp;eacute;n&amp;egrave;re un certificate
+gitoyen.net avec comme domaines g&amp;eacute;r&amp;eacute;s gitoyen.net et www.gitoyen.net (oui de la pub au passage))&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ bash bootstrap-letsencrypt.sh gitoyen gitoyen.net &lt;span class="s1"&gt;'DNS:gitoyen.net,DNS:www.gitoyen.net'&lt;/span&gt;
+&lt;span class="c1"&gt;##### gitoyen.net #####&lt;/span&gt;
+Parsing account key...
+Parsing CSR...
+Registering account...
+Already registered!
+Verifying www.gitoyen.net...
+www.gitoyen.net verified!
+Verifying gitoyen.net...
+gitoyen.net verified!
+Signing certificate...
+Certificate signed!
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Plut&amp;ocirc;t cool non ? Il suffit alors d'adapter la configuration du serveur web, pour
+prendre en compte ces certificats. Et passer tout en HTTPS ! (dans notre cas,
+c'est un nginx en reverse proxy qui g&amp;egrave;re le SSL et forward en HTTP sur une IP
+priv&amp;eacute;e).&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# Gitoyen&lt;/span&gt;
+&lt;span class="k"&gt;server&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="kn"&gt;server_name&lt;/span&gt; &lt;span class="s"&gt;gitoyen.net&lt;/span&gt; &lt;span class="s"&gt;planet.gitoyen.net&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="kn"&gt;rewrite&lt;/span&gt; &lt;span class="s"&gt;^(.*)&lt;/span&gt; &lt;span class="s"&gt;https://&lt;/span&gt;&lt;span class="nv"&gt;$host$1&lt;/span&gt; &lt;span class="s"&gt;permanent&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Gitoyen SSL&lt;/span&gt;
+&lt;span class="c1"&gt;# DNS:gitoyen.net,DNS:planet.gitoyen.net&lt;/span&gt;
+&lt;span class="k"&gt;server&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="kn"&gt;listen&lt;/span&gt; &lt;span class="mi"&gt;443&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="kn"&gt;ssl&lt;/span&gt; &lt;span class="no"&gt;on&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="kn"&gt;client_max_body_size&lt;/span&gt; &lt;span class="s"&gt;20M&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="kn"&gt;server_name&lt;/span&gt; &lt;span class="s"&gt;gitoyen.net&lt;/span&gt; &lt;span class="s"&gt;www.gitoyen.net&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="kn"&gt;ssl_certificate&lt;/span&gt; &lt;span class="s"&gt;/etc/letsencrypt/pem/gitoyen.net.pem&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="kn"&gt;ssl_certificate_key&lt;/span&gt; &lt;span class="s"&gt;/etc/letsencrypt/private/gitoyen.net.key&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="kn"&gt;ssl_session_timeout&lt;/span&gt; &lt;span class="mi"&gt;5m&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="kn"&gt;ssl_protocols&lt;/span&gt; &lt;span class="s"&gt;TLSv1&lt;/span&gt; &lt;span class="s"&gt;TLSv1.1&lt;/span&gt; &lt;span class="s"&gt;TLSv1.2&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="kn"&gt;ssl_ciphers&lt;/span&gt; &lt;span class="s"&gt;ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-SHA384:ECDHE-RSA-AES128-SHA256:ECDHE-RSA-AES256-SHA:ECDHE-RSA-AES128-SHA:DHE-RSA-AES256-SHA:DHE-RSA-AES128-SHA&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="kn"&gt;ssl_session_cache&lt;/span&gt; &lt;span class="s"&gt;shared:SSL:50m&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="kn"&gt;ssl_prefer_server_ciphers&lt;/span&gt; &lt;span class="no"&gt;on&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="kn"&gt;ssl_dhparam&lt;/span&gt; &lt;span class="s"&gt;/etc/letsencrypt/dh4096.pem&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="kn"&gt;ssl_ecdh_curve&lt;/span&gt; &lt;span class="s"&gt;secp384r1&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="kn"&gt;add_header&lt;/span&gt; &lt;span class="s"&gt;Strict-Transport-Security&lt;/span&gt; &lt;span class="s"&gt;max-age=15768000&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="kn"&gt;resolver&lt;/span&gt; &lt;span class="mi"&gt;127&lt;/span&gt;&lt;span class="s"&gt;.0.0.1&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="kn"&gt;location&lt;/span&gt; &lt;span class="s"&gt;/.well-known/acme-challenge/&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="kn"&gt;alias&lt;/span&gt; &lt;span class="s"&gt;/etc/letsencrypt/challenges/gitoyen.net/&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="kn"&gt;try_files&lt;/span&gt; &lt;span class="nv"&gt;$uri&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;404&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+  &lt;span class="kn"&gt;location&lt;/span&gt; &lt;span class="s"&gt;/&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="kn"&gt;proxy_pass&lt;/span&gt;       &lt;span class="s"&gt;http://10.41.1.143&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="kn"&gt;proxy_set_header&lt;/span&gt; &lt;span class="s"&gt;Host&lt;/span&gt; &lt;span class="nv"&gt;$host&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="kn"&gt;proxy_set_header&lt;/span&gt; &lt;span class="s"&gt;X-Forwarded-For&lt;/span&gt; &lt;span class="nv"&gt;$proxy_add_x_forwarded_for&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="kn"&gt;proxy_set_header&lt;/span&gt; &lt;span class="s"&gt;X-Real-IP&lt;/span&gt; &lt;span class="nv"&gt;$remote_addr&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="kn"&gt;proxy_set_header&lt;/span&gt; &lt;span class="s"&gt;X-Forwarded-Proto&lt;/span&gt; &lt;span class="s"&gt;https&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="kn"&gt;proxy_set_header&lt;/span&gt; &lt;span class="s"&gt;X-Forwarded-Ssl&lt;/span&gt; &lt;span class="no"&gt;on&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Pour la g&amp;eacute;n&amp;eacute;ration du dhparams (4096 bits c'est bien)&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;openssl dhparam -out dh4096.pem &lt;span class="m"&gt;4096&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Et vous voila donc avec une super config et du HTTPS automatis&amp;eacute;, on peut aller
+faire un tour sur &lt;a href="https://tls.imirhil.fr/https/gitoyen.net"&gt;imirhil&lt;/a&gt; pour un
+check de la conf et bien s&amp;ucirc;r pour pouvoir briller en soci&amp;eacute;t&amp;eacute;&amp;hellip;&lt;/p&gt;
+&lt;h2 id="supervision"&gt;Supervision&lt;/h2&gt;
+&lt;p&gt;Bon c'est bien beau, mais avec tout &amp;ccedil;a les certificats sont valables que 90j
+(oui mort &amp;agrave; CertPatrol :-() mais pour le coup il va donc falloir superviser
+tout cela.&lt;/p&gt;
+&lt;h3&gt;Via Certificate Monitor&lt;/h3&gt;
+&lt;p&gt;Si vous utilisez le sympa &lt;a href="https://certificatemonitor.org/"&gt;certificatemonitor&lt;/a&gt; (&lt;a href="https://github.com/RaymiiOrg/certificate-expiry-monitor"&gt;code source&lt;/a&gt;) de Raymii, il suffit alors d'ajouter vos FQDN dans l'interface. Et ainsi recevoir une notification avant l'expiration de vos certificats.&lt;/p&gt;
+&lt;h3&gt;Via Checkmk&lt;/h3&gt;
+&lt;p&gt;Sinon si vous avez d&amp;eacute;j&amp;agrave; une bonne veille supervision &amp;agrave; base de nagios ou checkmk ou compatible, il suffit d'ajouter les checks via le script &lt;code&gt;check_http&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Dans la conf &lt;code&gt;main.mk&lt;/code&gt; de checkmk:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;# /etc/checkmk/main.mk
+legacy_checks = [
+  ## Gitoyen
+  ( ( "check-certificate!gitoyen.net", "Certificate Gitoyen - Letsencrypt", True), ['baloo.gitoyen.net']),
+  ( ( "check-certificate!www.gitoyen.net", "Certificate www Gitoyen - Letsencrypt", True), ['baloo.gitoyen.net']),
+]
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Et ne pas oublier la &lt;code&gt;check_command&lt;/code&gt; associ&amp;eacute;e (on &amp;eacute;met un warning lorsque que le certificat expire &amp;agrave; J-30 et un critical &amp;agrave; J-7)&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;# /etc/checkmk/conf.d/commands_extra.mk
+define command {
+  command_name    check-certificate
+  command_line    $USER1$/check_http -H $ARG1$ -C 30,7 --sni
+}
+&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id="renouvellement"&gt;Renouvellement&lt;/h2&gt;
+&lt;p&gt;Il existe des scripts de renouvellement automatique:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/octopuce/octopuce-goodies/tree/master/letsencrypt-renew"&gt;letsencrypt-renew&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/lukas2511/letsencrypt.sh"&gt;letsencrypt.sh&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mais je ne sais pas encore quoi en penser, pour le moment je r&amp;eacute;agis lorsque que
+le check passe en warning avec ce mini script bash.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="ch"&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class="nv"&gt;account&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'gitoyen'&lt;/span&gt;
+&lt;span class="nv"&gt;certs&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'gitoyen.net www.gitoyen.net'&lt;/span&gt;
+
+&lt;span class="nb"&gt;pushd&lt;/span&gt; /etc/letsencrypt
+  &lt;span class="k"&gt;for&lt;/span&gt; cert in &lt;span class="nv"&gt;$certs&lt;/span&gt;
+  &lt;span class="k"&gt;do&lt;/span&gt;
+    &lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;"##### &lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;cert&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt; #####"&lt;/span&gt;
+    acme_tiny.py --account-key ./private/gitoyen.key --csr ./csr/&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;cert&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;.csr --acme-dir /etc/letsencrypt/challenges/&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;cert&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;/ &amp;gt; ./certs/&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;cert&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;.crt
+    cat ./certs/&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;cert&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;.crt ./pem/intermediate.pem &amp;gt; ./pem/&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;cert&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;.pem
+  &lt;span class="k"&gt;done&lt;/span&gt;
+&lt;span class="nb"&gt;popd&lt;/span&gt;
+systemctl restart nginx
+&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id="chocolat"&gt;Chocolat&lt;/h2&gt;
+&lt;p&gt;M&amp;ecirc;me si le mod&amp;egrave;le des CA est bancal, il n'y a plus de raison maintenant de ne pas proposer du HTTPS partout !&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Sebastien Badia</dc:creator><pubDate>Mon, 07 Mar 2016 20:00:00 +0100</pubDate><guid isPermaLink="false">tag:None,2016-03-07:/blog/yet-another-tutorial-about-lets-encrypt.html</guid><category>https</category><category>letsencrypt</category></item><item><title>Configuration Bird des routeurs</title><link>/blog/configuration-bird-des-routeurs.html</link><description>&lt;p&gt;Gitoyen est actuellement en train de passer &amp;agrave; Bird comme logiciel de routage.
+Notre infrastructure dispose de trois routeurs de bordure, l&amp;rsquo;un utilisant
+NanoBSD avec Bird, les deux autres utilisant encore des NanoBSD avec Quagga.&lt;/p&gt;
+&lt;p&gt;Nous profitons de cette occasion pour publier la configuration Bird que Gitoyen
+utilise en production sur l&amp;rsquo;un de ces routeurs de bordure.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://code.ffdn.org/gitoyen/bird-config"&gt;https://code.ffdn.org/gitoyen/bird-config&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;N&amp;rsquo;h&amp;eacute;sitez &amp;agrave; nous contactez en cas de suggestion ou de question.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Philippe Le Brouster</dc:creator><pubDate>Tue, 24 Feb 2015 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:None,2015-02-24:/blog/configuration-bird-des-routeurs.html</guid><category>bird</category><category>router</category><category>quagga</category></item><item><title>Évolution du réseau Gitoyen</title><link>/blog/evolution-du-reseau-gitoyen.html</link><description>&lt;p&gt;Ces derniers mois, Gitoyen a vu son infrastructure de c&amp;oelig;ur grandement modifi&amp;eacute;e.&lt;/p&gt;
+&lt;p&gt;En plus de notre actuel POP (point de pr&amp;eacute;sence) &amp;agrave; Telehouse 2, nous nous sommes
+install&amp;eacute;s &amp;agrave; Paris-Bourse (salle op&amp;eacute;r&amp;eacute;e par Liazo), trois de nos membres
+(Globenet, L&amp;rsquo;autre.net et FDN) sont d&amp;rsquo;ailleurs d&amp;eacute;j&amp;agrave; connect&amp;eacute;s &amp;agrave; ce nouveau POP.&lt;/p&gt;
+&lt;p&gt;C&amp;ocirc;t&amp;eacute; infrastructure, nous avons augment&amp;eacute; la taille de notre lien avec le point
+d&amp;rsquo;&amp;eacute;change France-IX (ce lien est donc pass&amp;eacute; de 100M &amp;agrave; 1G). Un nouveau routeur a
+aussi &amp;eacute;t&amp;eacute; install&amp;eacute; &amp;agrave; Telehouse 2, il vise &amp;agrave; d&amp;eacute;buter le remplacement des routeurs
+de Gitoyen qui commencent &amp;agrave; vieillir. En plus des mises &amp;agrave; jour logiciels, nous
+sommes pass&amp;eacute;s de quagga &amp;agrave; bird pour le logiciel de routage.&lt;/p&gt;
+&lt;p&gt;Plus d&amp;rsquo;&amp;eacute;volutions &amp;agrave; venir !&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Sebastien Badia</dc:creator><pubDate>Tue, 10 Feb 2015 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:None,2015-02-10:/blog/evolution-du-reseau-gitoyen.html</guid><category>bird</category><category>ix</category><category>pop</category></item></channel></rss>

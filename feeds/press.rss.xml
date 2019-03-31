@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>Gitoyen - Press</title><link>/</link><description></description><lastBuildDate>Sat, 01 Sep 2018 12:00:00 +0200</lastBuildDate><item><title>MilkyWan rejoint Gitoyen</title><link>/blog/milkywan-rejoint-gitoyen.html</link><description>&lt;p&gt;&lt;img alt="Logo Milkywan" src="https://milkywan.fr/images/milkywan_100.png"/&gt;&lt;/p&gt;
+&lt;p&gt;MilkyWan est un r&amp;eacute;seau associatif, exp&amp;eacute;rimental, avec l'id&amp;eacute;e de combiner FAI, transitaire et h&amp;eacute;bergeur.&lt;/p&gt;
+&lt;p&gt;MilkyWan nous rejoint pour contribuer &amp;agrave; l'effort de mutualisation qu'est Gitoyen. Mais aussi pour commencer &amp;agrave; jouer sur le vieux Internet (IPv4), ils disposaient jusqu'alors uniquement de ressources IPv6.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;La nouvelle PA IPv4 Gitoyen assign&amp;eacute;e &amp;agrave; MilkyWan : &lt;a href="https://stat.ripe.net/80.67.167.0%2F24"&gt;80.67.167.0/24&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;La page PeeringDB de MilkyWan &lt;a href="https://as57199.peeringdb.com/"&gt;AS57199&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pour en savoir plus sur MilkyWan, voici le &lt;a href="https://milkywan.fr/"&gt;site web&lt;/a&gt; de l'association.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Sebastien Badia</dc:creator><pubDate>Sat, 01 Sep 2018 12:00:00 +0200</pubDate><guid isPermaLink="false">tag:None,2018-09-01:/blog/milkywan-rejoint-gitoyen.html</guid><category>MilkyWan</category><category>Association</category></item><item><title>Mycélium rejoint Gitoyen</title><link>/blog/mycelium-rejoint-gitoyen.html</link><description>&lt;p&gt;&lt;img alt="Logo Myc&amp;eacute;lium" src="//mycelium-fai.org/wiki/_media/wiki/logo.png"/&gt;&lt;/p&gt;
+&lt;p&gt;Myc&amp;eacute;lium est une association loi 1901 qui a pour vocation d'&amp;ecirc;tre un fournisseur
+d'acc&amp;egrave;s &amp;agrave; Internet (FAI). Son domaine d'action est la m&amp;eacute;tropole lilloise et ses
+environs et bien s&amp;ucirc;r, tr&amp;egrave;s bient&amp;ocirc;t le grand Internet !!&lt;/p&gt;
+&lt;p&gt;Myc&amp;eacute;lium nous rejoint pour contribuer &amp;agrave; l'effort de mutualisation qu'est
+Gitoyen &amp;hearts; mais aussi pour d&amp;eacute;marrer une nouvelle branche d'Internet &amp;agrave; Lille et
+enfin l'obtention de ressources Internet (PA) IPv6 et IPv4.&lt;/p&gt;
+&lt;p&gt;Pour en savoir plus sur Myc&amp;eacute;lium, voici le &lt;a href="https://mycelium-fai.org/"&gt;site web&lt;/a&gt;
+de l'association.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Sebastien Badia</dc:creator><pubDate>Wed, 22 Aug 2018 20:00:00 +0200</pubDate><guid isPermaLink="false">tag:None,2018-08-22:/blog/mycelium-rejoint-gitoyen.html</guid><category>Mycelium</category><category>Association</category></item><item><title>Le dernier défenseur de l’Internet non marchand ?</title><link>/blog/le-dernier-defenseur-de-linternet-non-marchand.html</link><description>&lt;p&gt;Cinq associations pour d&amp;eacute;fendre un Internet "non-marchand". French data network,
+Placenet, Gandi, Netaktiv et Globenet ont cr&amp;eacute;&amp;eacute; Gitoyen, un groupement d&amp;rsquo;int&amp;eacute;r&amp;ecirc;t
+&amp;eacute;conomique (GIE) qui leur permettra de mutualiser leur bande passante. Gitoyen
+devrait ensuite mettre en place une salle d&amp;rsquo;h&amp;eacute;bergement avant de proposer aussi
+des abonnements ADSL &amp;agrave; prix co&amp;ucirc;tant...&lt;/p&gt;
+&lt;p&gt;"C&amp;rsquo;est un nom idiot mais qui fait beaucoup rire les gens du marketing", s&amp;rsquo;amuse
+Laurent Chemla, porte-parole de Gitoyen, un groupement d&amp;rsquo;int&amp;eacute;r&amp;ecirc;t &amp;eacute;conomique
+(GIE) r&amp;eacute;unissant cinq associations fers de lance de la d&amp;eacute;fense d&amp;rsquo;un Internet
+"non marchand". Alors forc&amp;eacute;ment, si le nom fait rire les commerciaux, Laurent
+Chemla ne peut que s&amp;rsquo;en r&amp;eacute;jouir. Quand tout sera en place, Gitoyen entend ouvrir
+une salle d&amp;rsquo;h&amp;eacute;bergement qui accueillera les serveurs d&amp;rsquo;autres associations ou
+simples sites qui d&amp;eacute;fendent les m&amp;ecirc;mes id&amp;eacute;aux. Ensuite, il proposera des acc&amp;egrave;s
+haut d&amp;eacute;bit &amp;agrave; prix co&amp;ucirc;tant. "L&amp;rsquo;id&amp;eacute;e est tr&amp;egrave;s simple", explique Laurent Chemla,
+"mettons en commun des ressources pour mieux exploiter nos activit&amp;eacute;s. Ce n&amp;rsquo;est
+pas tr&amp;egrave;s grave de faire &amp;ccedil;a par le biais d&amp;rsquo;une structure commerciale, le GIE
+permet plus de souplesse que d&amp;rsquo;autres. Et si on fait des b&amp;eacute;n&amp;eacute;fices, on les
+r&amp;eacute;investira en bande passante !" Car le premier objectif de Gitoyen est de
+permettre &amp;agrave; ses membres de tous b&amp;eacute;n&amp;eacute;ficier d&amp;rsquo;un meilleurs acc&amp;egrave;s au R&amp;eacute;seau
+mondial.
+Le club des 5 au service de l&amp;rsquo;Internet non marchand&lt;/p&gt;
+&lt;p&gt;French data network, Placenet, Gandi, Netaktiv et Globenet : les membres de
+Gitoyen sont au nombre de 5, "tous d&amp;eacute;fendent l&amp;rsquo;existence d&amp;rsquo;un Internet non
+marchand, ou citoyen", s&amp;rsquo;empresse de souligner Laurent Chemla qui regrette "la
+tendance lourde qui consiste &amp;agrave; transformer Internet en supermarch&amp;eacute;". Alors pour
+"combattre les lobbies et le march&amp;eacute;", une seule solution : "Accepter que pour
+exister, il faut exister dans l&amp;rsquo;Internet marchand. C&amp;rsquo;est d&amp;eacute;solant, personne
+n&amp;rsquo;aime cela, mais il n&amp;rsquo;y a pas d&amp;rsquo;autre fa&amp;ccedil;on de faire," Le porte-parole de
+Gitoyen sait de quoi il parle, il est l&amp;rsquo;un des associ&amp;eacute;s fondateurs de Gandi, une
+soci&amp;eacute;t&amp;eacute; qui commercialise des noms de domaine &amp;agrave; bas prix et qui rencontre un
+franc succ&amp;egrave;s (voir &amp;eacute;dition du 5 f&amp;eacute;vrier 2001). Au point de d&amp;eacute;gager des b&amp;eacute;n&amp;eacute;fices
+confortables. Horreur ! Heureusement, Gandi va pouvoir investir dans Gitoyen,
+des apports qui vont permettre au GIE de se lancer. L&amp;rsquo;homme s&amp;rsquo;est impliqu&amp;eacute; dans
+de nombreuses associations (voir &amp;eacute;dition du 5 f&amp;eacute;vrier 2001). C&amp;rsquo;est lors de la
+derni&amp;egrave;re Zeligconf, la "rencontre europ&amp;eacute;enne des contre-cultures num&amp;eacute;riques" qui
+s&amp;rsquo;est tenue &amp;agrave; Paris fin d&amp;eacute;cembre, que l&amp;rsquo;id&amp;eacute;e de Gitoyen s&amp;rsquo;est pr&amp;eacute;cis&amp;eacute;e.&lt;/p&gt;
+&lt;p&gt;Aujourd&amp;rsquo;hui, le GIE existe l&amp;eacute;galement et il va tout d&amp;rsquo;abord se concentrer sur
+l&amp;rsquo;achat de bande passante. "Internet est une structure de partage de
+ressources", explique Laurent Chemla qui ajoute que "toute la logique, c&amp;rsquo;est la
+mutualisation". Le GIE va permettre l&amp;rsquo;achat en gros de bande passante. "Nous ne
+serons pas au niveau des FAI, mais au niveau des op&amp;eacute;rateurs, les n&amp;eacute;gociations
+n&amp;rsquo;ont rien &amp;agrave; voir." En France, les op&amp;eacute;rateurs relient leurs r&amp;eacute;seaux &amp;agrave; des points
+d&amp;rsquo;interconnexion, Gitoyen va placer ses machines dans deux centres parisiens et
+se retrouver ainsi &amp;agrave; la source. "Il faut &amp;ecirc;tre sur place, l&amp;rsquo;installation requiert
+peu de comp&amp;eacute;tences, le loyer n&amp;rsquo;est pas excessif, mais il faut conna&amp;icirc;tre les
+ficelles", reconna&amp;icirc;t Laurent Chemla. Or, les membres de Gitoyen sont bien
+introduits, notamment chez les op&amp;eacute;rateurs. French data network, par exemple,
+&amp;eacute;tait l&amp;rsquo;un des tout premiers FAI en France, il dispose du plus gros serveur FTP
+de l&amp;rsquo;Hexagone. Avec Gandi, Placenet, Globenet et Netaktiv, au total Gitoyen
+regroupe une vingtaine de techniciens de haut niveau.&lt;/p&gt;
+&lt;p&gt;Ouvrir une salle d&amp;rsquo;h&amp;eacute;bergement est la priorit&amp;eacute; parmi les actions en direction du
+public. "Beaucoup de gens passent leur temps &amp;agrave; magouiller pour mettre une
+machine chez un copain FAI", explique Laurent Chemla. "Ils sont bien souvent
+oblig&amp;eacute;s de d&amp;eacute;m&amp;eacute;nager tous les six mois. Si Altern renaissait, o&amp;ugrave; mettrait-il ses
+machines ? Son rempla&amp;ccedil;ant viendra chez Gitoyen." Le GIE est proche des
+associations d&amp;rsquo;utilisateurs de logiciels libres qui trouveront un endroit pour
+h&amp;eacute;berger leurs serveurs, "sans pub", pr&amp;eacute;cise Laurent Chemla. "Pour nous, cette
+action correspond &amp;agrave; un r&amp;ocirc;le de service public, la d&amp;eacute;fense de la libert&amp;eacute;
+d&amp;rsquo;expression, ce genre de choses."
+Un acc&amp;egrave;s ADSL &amp;agrave; 150 francs par mois ?&lt;/p&gt;
+&lt;p&gt;Ensuite, par le biais de PlaceNet, Gitoyen entend proposer des abonnements ADSL
+&amp;agrave; prix co&amp;ucirc;tant. Laurent Chemla explique : "Le d&amp;eacute;groupage n&amp;rsquo;aura vraiment lieu
+qu&amp;rsquo;&amp;agrave; partir du 1er mai. Le calcul est simple : la location du mat&amp;eacute;riel, BAS et
+DSLAM, co&amp;ucirc;te environ 150 000 francs par mois auxquels il faut ajouter quelques
+investissements. Comme &amp;agrave; chaque fois on peut relier 1 000 clients, cela revient
+&amp;agrave; 150 francs par mois,". Le GIE songe aussi &amp;agrave; la BLR (boucle locale radio).
+"Dans les deux centres d&amp;rsquo;interconnexion o&amp;ugrave; nous allons installer des machines,
+nous avons d&amp;eacute;j&amp;agrave; pr&amp;eacute;vu un acc&amp;egrave;s terrasse et l&amp;rsquo;autorisation de mettre des
+antennes", sourit Laurent Chemla. L&amp;rsquo;Internet marchand n&amp;rsquo;a qu&amp;rsquo;&amp;agrave; bien se tenir !&lt;/p&gt;
+&lt;p&gt;Fred&amp;eacute;ric Vladyslav pour Vnunet.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Benjamin Sonntag</dc:creator><pubDate>Tue, 19 Feb 2002 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:None,2002-02-19:/blog/le-dernier-defenseur-de-linternet-non-marchand.html</guid><category>press</category><category>journal</category></item><item><title>Gandi investit ses bénéfices dans le Net alternatif</title><link>/blog/gandi-investit-ses-benefices-dans-le-net-alternatif.html</link><description>&lt;p&gt;En exploitant le cr&amp;eacute;neau tr&amp;egrave;s lucratif de la vente de noms de domaine, Gandi se
+donne les moyens de financer son r&amp;eacute;seau " alternatif " Gitoyen. Avec 4 millions
+d&amp;rsquo;euros de chiffre d&amp;rsquo;affaires, Gandi pointe &amp;agrave; la 16e place du classement mondial
+des registrars.&lt;/p&gt;
+&lt;p&gt;"L&amp;rsquo;id&amp;eacute;e de cr&amp;eacute;er Gandi, c&amp;rsquo;est Valentin Lacambre qui l&amp;rsquo;a eue. Son projet &amp;eacute;tait de
+casser le march&amp;eacute; de la vente des noms de domaine ", raconte Laurent Chemla, l&amp;rsquo;un
+des quatre cofondateurs.&lt;/p&gt;
+&lt;p&gt;Pourquoi voulait-il "casser" le march&amp;eacute; ? "Parce que vendre des noms de domaine,
+c&amp;rsquo;est vendre quelque chose qui ne co&amp;ucirc;te presque rien et qui appartient &amp;agrave; tout le
+monde. Cela devrait &amp;ecirc;tre g&amp;eacute;r&amp;eacute; par le service public", affirme Laurent Chemla.&lt;/p&gt;
+&lt;p&gt;Modestement, les fondateurs de Gandi (gestion et administration de noms de
+domaine sur Internet) se donnent pour objectif de vendre des noms de domaine &amp;agrave;
+tr&amp;egrave;s bas prix afin de prendre environ 1 % du march&amp;eacute;.&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;id&amp;eacute;e premi&amp;egrave;re &amp;eacute;tait avant tout de pousser la concurrence &amp;agrave; baisser ses prix,
+voire de les contraindre de vendre &amp;agrave; prix co&amp;ucirc;tant, comme le ferait un service
+public.&lt;/p&gt;
+&lt;p&gt;Mais, surprise, un mois apr&amp;egrave;s son lancement, en mars 2000, l&amp;rsquo;objectif de 1 %
+&amp;eacute;tait atteint. D&amp;egrave;s lors, il devient &amp;eacute;vident pour ses fondateurs que Gandi va
+rapporter de l&amp;rsquo;argent, mais aussi que les concurrents ne baisseront pas leurs
+prix.&lt;/p&gt;
+&lt;p&gt;Les fondateurs changent alors leur fusil d&amp;rsquo;&amp;eacute;paule. L&amp;rsquo;argent gagn&amp;eacute; reviendra pour
+partie &amp;agrave; des projets qu&amp;rsquo;ils jugeront d&amp;rsquo;int&amp;eacute;r&amp;ecirc;t g&amp;eacute;n&amp;eacute;ral, une fa&amp;ccedil;on de
+redistribuer des gains que Valentin Lacambre et Laurent Chemla estiment
+"ill&amp;eacute;gitimes".&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Benjamin Sonntag</dc:creator><pubDate>Mon, 11 Feb 2002 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:None,2002-02-11:/blog/gandi-investit-ses-benefices-dans-le-net-alternatif.html</guid><category>press</category><category>journal</category></item><item><title>Les pionniers du Net alternatif non marchand veulent investir leurs profits.</title><link>/blog/les-pionniers-du-net-alternatif-non-marchand-veulent-investir-leurs-profits.html</link><description>&lt;p&gt;A FORCE DE PARLER des d&amp;eacute;boires des dotcoms, on oublie souvent les succ&amp;egrave;s
+commerciaux des "dotnets", les start-up techniques qui, en coulisse, contribuent
+au bon fonctionnement de l&amp;rsquo;Internet et am&amp;eacute;liorent constamment ses performances.&lt;/p&gt;
+&lt;p&gt;Ainsi, la soci&amp;eacute;t&amp;eacute; fran&amp;ccedil;aise Gandi (Le Monde du 14 juin 2000), l&amp;rsquo;un des nombreux
+"registrars" habilit&amp;eacute;s &amp;agrave; vendre des noms de domaine en.com, .net, .org et .info,
+va d&amp;eacute;gager en 2001 pr&amp;egrave;s d&amp;rsquo;un million d&amp;rsquo;euros de b&amp;eacute;n&amp;eacute;fices, alors qu&amp;rsquo;elle emploie
+seulement huit personnes - les quatre associ&amp;eacute;s, qui y travaillent &amp;agrave; temps
+partiel, et quatre salari&amp;eacute;s.&lt;/p&gt;
+&lt;p&gt;Ce r&amp;eacute;sultat est une surprise pour Valentin Lacambre, pionnier de l&amp;rsquo;Internet
+alternatif non marchand, et fondateur de Gandi, ainsi que de l&amp;rsquo;h&amp;eacute;bergeur Altern
+et de l&amp;rsquo;op&amp;eacute;rateur t&amp;eacute;l&amp;eacute;com Gitoyen : "C&amp;rsquo;est bizarre ce qui arrive, je n&amp;rsquo;avais pas
+pr&amp;eacute;vu de faire de la thune avec &amp;ccedil;a, ce n&amp;rsquo;&amp;eacute;tait pas le but, je crois que nous
+sommes les moins chers du monde." Cela dit, cet argent est le bienvenu : "Avec
+mon associ&amp;eacute; Laurent Chemla, on s&amp;rsquo;est dit : soit on se barre &amp;agrave; la campagne avec
+le fric, soit on consid&amp;egrave;re que c&amp;rsquo;est un tr&amp;eacute;sor de guerre, &amp;agrave; utiliser pour faire
+des trucs chouettes." Apr&amp;egrave;s r&amp;eacute;flexion, les deux amis d&amp;eacute;cident que, en cette fin
+2001, le truc le plus chouette serait de cr&amp;eacute;er un nouveau magazine, non pas sur
+le Net, mais un magazine-papier vendu en kiosque : "Nous allons financer un vrai
+journal d&amp;rsquo;opinion, qui soit vraiment de gauche.&lt;/p&gt;
+&lt;p&gt;Elle est o&amp;ugrave;, aujourd&amp;rsquo;hui, la presse non guerri&amp;egrave;re ? Nulle part. Qui s&amp;rsquo;est
+vraiment battu contre la loi ultrar&amp;eacute;pressive sur la s&amp;eacute;curit&amp;eacute; quotidienne ? Qui
+se bat aujourd&amp;rsquo;hui contre les clauses liberticides contenues dans le projet de
+loi sur la soci&amp;eacute;t&amp;eacute; de l&amp;rsquo;information ? Personne. Ce sera notre r&amp;ocirc;le."&lt;/p&gt;
+&lt;p&gt;Cela dit, MM. Lacambre et Chemla savent que, comme l&amp;rsquo;Internet, la presse est un
+m&amp;eacute;tier qui ne s&amp;rsquo;apprend pas en un jour : "Pas question pour nous d&amp;rsquo;avoir de
+responsabilit&amp;eacute;s &amp;eacute;ditoriales, nous laisserons &amp;ccedil;a au secteur associatif, qui a
+beaucoup de choses &amp;agrave; dire. Nous sommes en contact avec une vingtaine de
+personnes venues des r&amp;eacute;seaux alternatifs, des fanzines Internet et m&amp;ecirc;me de la
+presse classique." Bien s&amp;ucirc;r, le futur magazine, probablement un bimensuel, ne
+fonctionnera pas comme une entreprise de presse ordinaire : "Ce sera un journal
+en participation, on ne cr&amp;eacute;era pas de SARL. Les journalistes ne seront pas
+salari&amp;eacute;s, ils toucheront un pourcentage sur les ventes." Titre de travail
+provisoire : ./, lire point-barre.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Benjamin Sonntag</dc:creator><pubDate>Wed, 05 Dec 2001 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:None,2001-12-05:/blog/les-pionniers-du-net-alternatif-non-marchand-veulent-investir-leurs-profits.html</guid><category>press</category><category>journal</category></item><item><title>Gitoyen, une "salle des machines" associative.</title><link>/blog/gitoyen-une-salle-des-machines-associative.html</link><description>&lt;p&gt;&lt;img alt="placepublique" src="/images/placepublique_gitoyen.png"/&gt;&lt;/p&gt;
+&lt;p&gt;Des h&amp;eacute;bergeurs, des fournisseurs d&amp;rsquo;acc&amp;egrave;s et de noms de domaine pr&amp;ocirc;nant l&amp;rsquo;autogestion, le partage des co&amp;ucirc;ts et la solidarit&amp;eacute;... Les "marchands" du Net n&amp;rsquo;ont qu&amp;rsquo;&amp;agrave; bien se tenir !&lt;/p&gt;
+&lt;p&gt;Et&amp;eacute; 2000 : apr&amp;egrave;s de multiples proc&amp;egrave;s gagn&amp;eacute;s ou perdus, et las de subir un certain nombre d&amp;rsquo;attaques, Valentin Lacambre, cr&amp;eacute;ateur d&amp;rsquo;Altern, renonce &amp;agrave; la partie " gratuite " de son activit&amp;eacute; d&amp;rsquo;h&amp;eacute;bergeur. Il n&amp;rsquo;abandonne pas pour autant son cheval de bataille - l&amp;rsquo;Internet solidaire et non marchand, autrement dit l&amp;rsquo;Internet par et pour ceux qui l&amp;rsquo;utilisent. Il propose que d&amp;rsquo;autres reprennent le flambeau en cr&amp;eacute;ant, &amp;agrave; partir de ses logiciels, de nouveaux services pens&amp;eacute;s pour &amp;ecirc;tre g&amp;eacute;r&amp;eacute;s de la mani&amp;egrave;re la plus horizontale possible par leurs utilisateurs. Ouvaton, une coop&amp;eacute;rative d&amp;rsquo;h&amp;eacute;bergement num&amp;eacute;rique soutenue par une association (" Ouvaton les amis "), est l&amp;rsquo;un des premiers &amp;agrave; r&amp;eacute;pondre pr&amp;eacute;sent.&lt;/p&gt;
+&lt;p&gt;Dans le m&amp;ecirc;me temps, un autre projet voit le jour. Baptis&amp;eacute; l&amp;rsquo;Autre Net, l&amp;rsquo;initiative vise le partage &amp;eacute;quitable des co&amp;ucirc;ts d&amp;rsquo;h&amp;eacute;bergement et des responsabilit&amp;eacute;s entre tous les utilisateurs. " Comme Ouvaton, l&amp;rsquo;Autre Net est un projet politique, anim&amp;eacute; par une r&amp;eacute;sistance &amp;agrave; l&amp;rsquo;un des volets du projet de loi sur les nouvelles technologies qui vise &amp;agrave; transformer les h&amp;eacute;bergeurs en censeurs des sites h&amp;eacute;berg&amp;eacute;s et en contr&amp;ocirc;leurs des utilisateurs. La diff&amp;eacute;rence tient principalement dans le mode d&amp;rsquo;administration de l&amp;rsquo;activit&amp;eacute;. A l&amp;rsquo;Autre Net, tout le monde peut &amp;ecirc;tre int&amp;eacute;gr&amp;eacute; &amp;agrave; condition de s&amp;rsquo;investir dans la gestion ", explique Erick Aubourg, directeur de Globenet, h&amp;eacute;bergeur associatif.
+Une AG virtuelle&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;Autre Net, devenu une association et b&amp;eacute;n&amp;eacute;ficiant d&amp;rsquo;une petite subvention du secr&amp;eacute;tariat d&amp;rsquo;Etat &amp;agrave; l&amp;rsquo;Economie solidaire, revendique en effet un mode de fonctionnement autog&amp;eacute;r&amp;eacute;. Celui-ci repose sur une assembl&amp;eacute;e g&amp;eacute;n&amp;eacute;rale (AG) permanente en ligne qui permet &amp;agrave; chacun de donner son avis, de cr&amp;eacute;er des groupes de travail sp&amp;eacute;cifiques ou d&amp;rsquo;y participer, de proposer le cas &amp;eacute;ch&amp;eacute;ant la fermeture de sites h&amp;eacute;berg&amp;eacute;s... " Ce n&amp;rsquo;est pas &amp;agrave; l&amp;rsquo;h&amp;eacute;bergeur de d&amp;eacute;cider de ce qui est l&amp;eacute;gal ou non. Si un juge exige la fermeture d&amp;rsquo;un site, on ob&amp;eacute;ira. Mais le choix de maintenir ou non l&amp;rsquo;h&amp;eacute;bergement d&amp;rsquo;un site peut aussi &amp;ecirc;tre fond&amp;eacute; sur une d&amp;eacute;cision prise par l&amp;rsquo;assembl&amp;eacute;e, simplement parce qu&amp;rsquo;une majorit&amp;eacute; des membres refuse d&amp;rsquo;h&amp;eacute;berger certains contenus ", poursuit Erick Aubourg. Autre particularit&amp;eacute; : la structure ne repose pas sur un conseil d&amp;rsquo;administration, et le bureau, simple ex&amp;eacute;cutif, n&amp;rsquo;a pas de pouvoir d&amp;eacute;cisionnaire. Seule l&amp;rsquo;AG virtuelle vote les d&amp;eacute;cisions, d&amp;eacute;cide des choix strat&amp;eacute;giques. Les groupes de travail peuvent &amp;ecirc;tre mis en place (pour la technique et la gestion notamment) de fa&amp;ccedil;on permanente ou ponctuelle. " Il n&amp;rsquo;y aura pas d&amp;rsquo;AG physique ni d&amp;rsquo;instance de pouvoir, affirme le directeur de Globenet. Quant au risque d&amp;rsquo;h&amp;eacute;berger des sites " p&amp;eacute;do-nazis ", je ne pense pas que le probl&amp;egrave;me se posera. Et si c&amp;rsquo;&amp;eacute;tait le cas, ils seraient certainement tr&amp;egrave;s vite supprim&amp;eacute;s par les autres utilisateurs. "
+Mutualiser les co&amp;ucirc;ts&lt;/p&gt;
+&lt;p&gt;Sur ce premier projet non marchand, se greffe une seconde id&amp;eacute;e &amp;agrave; l&amp;rsquo;automne 2000. Le serveur de l&amp;rsquo;Autre Net, offert par Valentin Lacambre et destin&amp;eacute; &amp;agrave; accueillir de nombreux " locataires ", est h&amp;eacute;berg&amp;eacute; chez Globenet en attendant que les membres de l&amp;rsquo;association puissent payer leur bande passante [1]. Au m&amp;ecirc;me moment, Globenet recherche un prestataire pouvant lui fournir une capacit&amp;eacute; de transmission de donn&amp;eacute;es plus importante. L&amp;rsquo;id&amp;eacute;e germe alors de partager les co&amp;ucirc;ts des bandes passantes respectives des diff&amp;eacute;rentes structures, ce qui conduit &amp;agrave; diminuer fortement le prix support&amp;eacute; par chacune.&lt;/p&gt;
+&lt;p&gt;Fin 2000, la discussion s&amp;rsquo;ouvre &amp;agrave; d&amp;rsquo;autres partenaires, qui expriment les m&amp;ecirc;mes souhaits ou les m&amp;ecirc;mes besoins. Les interlocuteurs pousseront cette logique de mutualisation jusqu&amp;rsquo;&amp;agrave; imaginer la cr&amp;eacute;ation d&amp;rsquo;une " salle des machines " associative, cog&amp;eacute;r&amp;eacute;e et dont les utilisateurs partageraient les co&amp;ucirc;ts. Le projet prend corps en mars 2001 : Placenet (association proposant de l&amp;rsquo;ADSL &amp;agrave; prix co&amp;ucirc;tant), Gandi (fournisseur de noms de domaines &amp;agrave; bas prix), French Data Network (fournisseur d&amp;rsquo;acc&amp;egrave;s associatif), Netaktiv (fournisseur d&amp;rsquo;acc&amp;egrave;s et de services Internet associatif) et Globenet [2] fondent Gitoyen, un groupement d&amp;rsquo;int&amp;eacute;r&amp;ecirc;t &amp;eacute;conomique (regroupement d&amp;rsquo;organismes aux statuts diff&amp;eacute;rents), chacune des structures d&amp;eacute;l&amp;eacute;guant une personne &amp;agrave; l&amp;rsquo;administration du GIE. "Gitoyen est au service de ses membres : cet outil permet d&amp;rsquo;acheter de la bande passante en gros, de donner &amp;agrave; chacun des moyens de mettre en place ses propres projets (ADSL, h&amp;eacute;bergement de serveurs...). A terme, il existera un v&amp;eacute;ritable r&amp;eacute;seau d&amp;rsquo;acteurs susceptibles de proposer des offres peu co&amp;ucirc;teuses, alternatives &amp;agrave; celles des prestataires marchands, allant de l&amp;rsquo;acc&amp;egrave;s Internet &amp;agrave; la prestation sur les noms de domaine en passant par l&amp;rsquo;h&amp;eacute;bergement de serveurs, la fourniture de bande passante et autres services", conclut Erick Aubourg. D&amp;egrave;s septembre prochain, les internautes pourront profiter de ces multiples services&amp;hellip; Encore un peu de patience !&lt;/p&gt;
+&lt;p&gt;Anne Dhoquois&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[1] Bande passante : capacit&amp;eacute; des " tuyaux " (c&amp;acirc;bles, satellites, r&amp;eacute;seaux de t&amp;eacute;l&amp;eacute;communications de toute nature) &amp;agrave; transmettre un certain volume d&amp;rsquo;informations, de donn&amp;eacute;es num&amp;eacute;riques.&lt;/li&gt;
+&lt;li&gt;[2] Globenet, French Data Network (FDN) et Netaktiv devraient prochainement mutualiser leurs services d&amp;rsquo;acc&amp;egrave;s au Net. En pr&amp;eacute;vision : un num&amp;eacute;ro d&amp;rsquo;acc&amp;egrave;s national en tarification locale directement g&amp;eacute;r&amp;eacute; par les trois partenaires, ainsi qu&amp;rsquo;une r&amp;eacute;&amp;eacute;valuation &amp;agrave; la baisse des tarifs d&amp;rsquo;acc&amp;egrave;s pour les membres.&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Benjamin Sonntag</dc:creator><pubDate>Wed, 15 Aug 2001 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:None,2001-08-15:/blog/gitoyen-une-salle-des-machines-associative.html</guid><category>press</category><category>journal</category></item><item><title>Gitoyen ? Une idée ridicule d’aujourd’hui</title><link>/blog/gitoyen-une-idee-ridicule-daujourdhui.html</link><description>&lt;p&gt;&amp;Agrave; part le jeu de mots douteux sur la structure juridique (Gitoyen est un
+Groupement d&amp;rsquo;Int&amp;eacute;r&amp;ecirc;t &amp;Eacute;conomique, c&amp;rsquo;est &amp;agrave; dire un regroupement de personnes
+morales dans un but bassement mat&amp;eacute;riel) et sur le mot le plus utilis&amp;eacute; dans le
+vocabulaire politique (&amp;laquo; Faisons un d&amp;eacute;bat citoyen au Caf&amp;eacute; du Commerce &amp;raquo;), qu&amp;rsquo;y a
+t-il derri&amp;egrave;re ce truc ?&lt;/p&gt;
+&lt;p&gt;Gitoyen n&amp;rsquo;existant que par ses membres, commen&amp;ccedil;ons par eux : Gitoyen regroupe
+cinq entit&amp;eacute;s, trois associations et deux entreprises vachement citoyennes.
+Placenet, FDN, GlobeNet, Netaktiv et Gandi ont form&amp;eacute; ensemble le GIE le 9
+f&amp;eacute;vrier 2001. D&amp;rsquo;autres les rejoindront bient&amp;ocirc;t, esp&amp;eacute;rons-le. Toutes ces entit&amp;eacute;s
+sont bien connues de nos lecteurs... FDN a &amp;eacute;t&amp;eacute; le premier fournisseur d&amp;rsquo;acc&amp;egrave;s
+Internet en France, GlobeNet un des premiers fournisseurs d&amp;rsquo;acc&amp;egrave;s au r&amp;eacute;seau,
+Netaktiv est cr&amp;eacute;&amp;eacute; par les gens d&amp;rsquo;Internatif, un autre pilier de l&amp;rsquo;Internet
+non-marchand en France, et Gandi est l&amp;rsquo;entreprise de voleurs bien connue.&lt;/p&gt;
+&lt;p&gt;Tous ont le m&amp;ecirc;me but : un Internet qui ne soit pas uniquement un cybermarch&amp;eacute;. Un
+Internet non-marchand, on dit souvent. Mais attention : il ne s&amp;rsquo;agit pas de
+g&amp;eacute;rer une r&amp;eacute;serve d&amp;rsquo;Indiens, un petit ghetto o&amp;ugrave; quelques libertaires
+soixante-huitards attard&amp;eacute;s connecteraient au r&amp;eacute;seau un PC 486 via une ligne &amp;agrave;
+2400 bits par seconde, afin de distribuer des pages Web en noir et blanc et un
+message chiffr&amp;eacute; avec PGP de temps en temps. Il s&amp;rsquo;agit d&amp;rsquo;un Internet vivant,
+riche, bien plus int&amp;eacute;ressant que www.nimportequoidumomentque&amp;ccedil;afaitvendre.com.&lt;/p&gt;
+&lt;p&gt;Cela co&amp;ucirc;te cher, h&amp;eacute;las. Rien que pour se connecter au r&amp;eacute;seau en permanence, en
+position d&amp;rsquo;h&amp;eacute;berger des serveurs (Web, courrier, Freenet, etc), il faut des
+lignes sp&amp;eacute;cialis&amp;eacute;es, &amp;agrave; d&amp;eacute;bit &amp;eacute;lev&amp;eacute; et &amp;agrave; facture plus &amp;eacute;lev&amp;eacute;e encore. Merveille de
+la nouvelle &amp;eacute;conomie, on fait payer les pauvres plus chers que les riches ! Plus
+un tuyau num&amp;eacute;rique est gros, moins il co&amp;ucirc;te cher. D&amp;rsquo;o&amp;ugrave; l&amp;rsquo;id&amp;eacute;e de se regrouper.
+Gitoyen pourra donc acheter directement aux op&amp;eacute;rateurs de t&amp;eacute;l&amp;eacute;communications (et
+pas &amp;agrave; un fournisseur Internet qui prend sa part au passage), pourra avoir
+plusieurs connexions &amp;agrave; Internet (donc ne pas d&amp;eacute;pendre d&amp;rsquo;un seul fournisseur) et
+pourra &amp;ecirc;tre un acteur des t&amp;eacute;l&amp;eacute;communications, pas un simple client.&lt;/p&gt;
+&lt;p&gt;Cela ne se fera pas en un jour. Pour l&amp;rsquo;instant, on essaie d&amp;eacute;j&amp;agrave; de mettre
+modestement un pied dans ces grandes salles o&amp;ugrave; les op&amp;eacute;rateurs se connectent, de
+fa&amp;ccedil;on &amp;agrave; &amp;ecirc;tre le plus proches possible des grandes dorsales de l&amp;rsquo;Internet. On y
+mettra nos machines et roulez, jeunesse. Les membres de Gitoyen pourront alors
+h&amp;eacute;berger leurs serveurs dans de meilleures conditions et pour moins cher.&lt;/p&gt;
+&lt;p&gt;Ensuite, ce sera chaque membre qui fera &amp;agrave; son id&amp;eacute;e. Certains envisagent de
+d&amp;eacute;velopper les connexions ADSL &amp;agrave; prix int&amp;eacute;ressant, d&amp;rsquo;autres veulent h&amp;eacute;berger des
+serveurs Web, d&amp;rsquo;autres vendront ou donneront tel ou tel autre service.&lt;/p&gt;
+&lt;p&gt;&amp;Ccedil;a ne marchera pas ? Ce n&amp;rsquo;est pas r&amp;eacute;aliste ? Vous n&amp;rsquo;y connaissez rien, mon jeune
+ami ? (Cela, c&amp;rsquo;est exact, j&amp;rsquo;ai juste commenc&amp;eacute; &amp;agrave; lire les documents RIPE.) Tout
+cela est vrai. L&amp;rsquo;Internet ne pouvait pas marcher non plus. Impossible. C&amp;rsquo;est
+forc&amp;eacute;ment un accident. Ni les logiciels libres. Une id&amp;eacute;e absurde. Gitoyen est
+l&amp;rsquo;id&amp;eacute;e ridicule d&amp;rsquo;aujourd&amp;rsquo;hui.&lt;/p&gt;
+&lt;p&gt;par St&amp;eacute;phane Bortzmeyer&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Benjamin Sonntag</dc:creator><pubDate>Wed, 28 Feb 2001 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:None,2001-02-28:/blog/gitoyen-une-idee-ridicule-daujourdhui.html</guid><category>press</category><category>journal</category></item><item><title>Des associations créent un groupement d’intérêt économique.</title><link>/blog/des-associations-creent-un-groupement-dinteret-economique.html</link><description>&lt;p&gt;&amp;laquo; On n&amp;rsquo;a rien contre le business, mais on d&amp;eacute;fend une autre id&amp;eacute;e : celle d&amp;rsquo;une appropriation du r&amp;eacute;seau par le public. &amp;raquo; Laurent Chemla&lt;/p&gt;
+&lt;p&gt;C&amp;rsquo;est un mot qui n&amp;rsquo;existe pas dans le dictionnaire, mais qui est malgr&amp;eacute; tout assez parlant : &amp;laquo; Gitoyen &amp;raquo;. Il s&amp;rsquo;agit en l&amp;rsquo;occurrence d&amp;rsquo;un GIE (groupement d&amp;rsquo;int&amp;eacute;r&amp;ecirc;t &amp;eacute;conomique) cr&amp;eacute;&amp;eacute; le 9 f&amp;eacute;vrier entre des associations toutes attach&amp;eacute;es &amp;agrave; un id&amp;eacute;al : l&amp;rsquo;Internet non marchand. Objectif : mettre en commun leurs moyens techniques et humains afin de garantir aux associations et aux particuliers une offre compl&amp;egrave;te de services Internet - acc&amp;egrave;s, h&amp;eacute;bergement de sites et d&amp;egrave;s que possible liaison ADSL (&amp;agrave; haut d&amp;eacute;bit) - &amp;agrave; prix quasi co&amp;ucirc;tant. Ce qui &amp;eacute;viterait de passer par les entreprises habituelles du march&amp;eacute;, promptes &amp;agrave; placer des bandeaux publicitaires sur les sites ou &amp;agrave; facturer leurs services au prix fort. La formule d&amp;rsquo;un &amp;laquo; GIE d&amp;rsquo;associations &amp;raquo; est assez peu conventionnelle. C&amp;rsquo;est celle qu&amp;rsquo;ont retenue ses p&amp;egrave;res fondateurs qui sont aussi deux figures de l&amp;rsquo;Internet ind&amp;eacute;pendant : Valentin Lacambre et Laurent Chemla. Deux obstin&amp;eacute;s : le premier a cr&amp;eacute;&amp;eacute; le service d&amp;rsquo;h&amp;eacute;bergement gratuit Altern.org, et le second l&amp;rsquo;Ecole de l&amp;rsquo;Internet, destin&amp;eacute; &amp;agrave; promouvoir l&amp;rsquo;usage du r&amp;eacute;seau.&lt;/p&gt;
+&lt;p&gt;Pour eux, la constitution d&amp;rsquo;un GIE &amp;laquo; associatif &amp;raquo; est une &amp;eacute;tape suppl&amp;eacute;mentaire dans l&amp;rsquo;&amp;eacute;dification d&amp;rsquo;un Web ind&amp;eacute;pendant des pressions &amp;eacute;conomiques. &amp;laquo; On n&amp;rsquo;a rien contre le business, mais on d&amp;eacute;fend une autre id&amp;eacute;e : celle d&amp;rsquo;une appropriation du r&amp;eacute;seau par le public, explique Laurent Chemla. La libert&amp;eacute; d&amp;rsquo;expression appartient &amp;agrave; tous. Elle n&amp;rsquo;a rien &amp;agrave; voir avec une logique marchande. &amp;raquo; Certains na&amp;iuml;fs s&amp;rsquo;&amp;eacute;tonneront sans doute que des associations se trouvent ainsi en premi&amp;egrave;re ligne pour d&amp;eacute;fendre ce qui s&amp;rsquo;apparente de fait &amp;agrave; un service public. &amp;laquo; Les besoins sont importants &amp;raquo;, soulignent simplement les deux militants.&lt;/p&gt;
+&lt;p&gt;Noyau alternatif. Pour construire leur GIE, Lacambre et Chemla se sont associ&amp;eacute;s avec de vieilles connaissances. On trouve ainsi &amp;agrave; leurs c&amp;ocirc;t&amp;eacute;s l&amp;rsquo;association French Data Network (FDN), un des tout premiers fournisseurs d&amp;rsquo;acc&amp;egrave;s &amp;agrave; l&amp;rsquo;Internet en France. Globenet, h&amp;eacute;bergeur gratuit d&amp;rsquo;une multitude d&amp;rsquo;associations et syndicats, dont la Conf&amp;eacute;d&amp;eacute;ration paysanne ou Aides. Netaktiv, portail alternatif. Placenet, association proposant des liaisons ADSL &amp;agrave; prix r&amp;eacute;duit. Et, pour finir, Gandi, la Sarl que Lacambre et Chemla ont cr&amp;eacute;&amp;eacute;e ensemble l&amp;rsquo;ann&amp;eacute;e derni&amp;egrave;re pour vendre des noms de domaine (les fameux www.truc.com), l&amp;agrave; encore quasiment &amp;agrave; prix co&amp;ucirc;tant (200 000 noms attribu&amp;eacute;s). Bref, entre la mutualisation des moyens techniques (modem, machines, bande passante) et partage des connaissances des uns et des autres, &amp;laquo; Gitoyen &amp;raquo; fait une d&amp;eacute;monstration d&amp;rsquo;&amp;eacute;conomie solidaire. &amp;laquo; Pourtant, on n&amp;rsquo;a rien d&amp;rsquo;original, soutient Chemla. L&amp;rsquo;Internet est foutu comme cela. Il est solidaire, bas&amp;eacute; sur l&amp;rsquo;entraide. Le GIE n&amp;rsquo;est que la concr&amp;eacute;tisation de cette mani&amp;egrave;re de fonctionner. &amp;raquo;&lt;/p&gt;
+&lt;p&gt;Fortification. C&amp;rsquo;est aussi un paratonnerre, une petite fortification destin&amp;eacute;e &amp;agrave; prot&amp;eacute;ger ses membres. Au coude &amp;agrave; coude, les associations qui constituent Gitoyen seront a priori moins vuln&amp;eacute;rables. On se souvient que Valentin Lacambre avait d&amp;ucirc; renoncer l&amp;rsquo;&amp;eacute;t&amp;eacute; dernier &amp;agrave; maintenir l&amp;rsquo;activit&amp;eacute; d&amp;rsquo;Altern.org, trop r&amp;eacute;guli&amp;egrave;rement appel&amp;eacute; &amp;agrave; se justifier devant les tribunaux. Et condamn&amp;eacute;. Sans tr&amp;eacute;sorerie, seul, Lacambre s&amp;rsquo;est finalement retrouv&amp;eacute; &amp;agrave; genoux. La vocation affich&amp;eacute;e du GIE n&amp;rsquo;est cependant pas d&amp;rsquo;assurer les moyens de d&amp;eacute;fense de ses membres. Mais il est s&amp;ucirc;rement plus dissuasif.&lt;/p&gt;
+&lt;p&gt;C&amp;rsquo;est qui d&amp;eacute;j&amp;agrave; qui disait que parfois la r&amp;eacute;alit&amp;eacute; d&amp;eacute;passe l&amp;rsquo;infection... ?&lt;/p&gt;
+&lt;p&gt;Par Marie-Jo&amp;euml;lle Gros, Lib&amp;eacute;ration du 20 f&amp;eacute;vrier 2001.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Benjamin Sonntag</dc:creator><pubDate>Tue, 20 Feb 2001 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:None,2001-02-20:/blog/des-associations-creent-un-groupement-dinteret-economique.html</guid><category>press</category><category>journal</category></item></channel></rss>
