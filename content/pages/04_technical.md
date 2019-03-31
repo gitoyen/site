@@ -8,6 +8,8 @@ Title: Côté technique
 * [Smokeping](https://smokeping.gitoyen.net/) latence réseau (accès authentifié)
 * [Weathermap](https://librenms.gitoyen.net/plugins/Weathermap/output/members.png) instantané des liens réseau de Gitoyen
 
+![Weathermap Gitoyen](https://librenms.gitoyen.net/plugins/Weathermap/output/members.png){ width=80% }
+
 # Liens externes
 
 * Très intéressantes [statistiques BGP](https://stats.apnic.net/) de l'APNIC
