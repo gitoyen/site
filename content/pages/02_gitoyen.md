@@ -139,6 +139,7 @@ Les membres de Gitoyen sont, à ce jour
 
 * [Altern](http://www.altern.org/), la société de Valentin Lacambre.
 * [Baionet](https://www.baionet.fr/), Association fournisseur d'accès à Internet à Bayonne.
+* [Faibreizh](https://fai.bzh/), Fournisseur d’Accès Internet Associatif dans les Côtes d’Armor
 * [FDN](http://www.fdn.fr/), Association fournisseur d'accès à Internet depuis 1992.
 * [Franciliens.net](http://franciliens.net/), Association fournisseur d'accès à Internet en Ile-de-France.
 * [Globenet](http://www.globenet.org/), L'hébergeur historique des ONG, créateur du projet No-Log.
