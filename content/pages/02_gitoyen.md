@@ -125,12 +125,12 @@ elle est pour l'autre un outil au service de leur activité ou une passion.
 
 Gitoyen est membre ou est présent sur plusieurs points d'échange (aussi appelés IX).
 
-* [FranceIX](https://www.franceix.net/fr)
+* [FranceIX](https://www.franceix.net)
 * [EquinIX](https://www.equinix.com)
-* [DEC-IX](https://www.de-cix.net/en/locations/germany/frankfurt) (remote)
-* [AMSIX](https://ams-ix.net) (remote)
+* [DE-CIX](https://www.de-cix.net/en/locations/germany/frankfurt) (remote)
+* [AMS-IX](https://ams-ix.net) (remote)
 * [SFINX](https://www.sfinx.fr)
-* [LUC-IX](https://www.lu-cix.lu) (via FranceIX)
+* [LU-CIX](https://www.lu-cix.lu) (via FranceIX)
 * [TOP-IX](https://www.top-ix.org) (via FranceIX)
 
 Nos points de peering sont listés sur la page de l'AS20766 sur [peeringdb](https://as20766.peeringdb.com)
