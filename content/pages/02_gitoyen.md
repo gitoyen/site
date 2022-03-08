@@ -140,6 +140,7 @@ Nos points de peering sont listés sur la page de l'AS20766 sur [peeringdb](http
 Les membres de Gitoyen sont, à ce jour
 
 * [Altern](http://www.altern.org/), la société de Valentin Lacambre.
+* [Aquilenet](https://www.aquilenet.fr/), Association fournisseur d'accès à Internet en Aquitaine.
 * [Baionet](https://www.baionet.fr/), Association fournisseur d'accès à Internet à Bayonne.
 * [Faibreizh](https://fai.bzh/), Fournisseur d’Accès Internet Associatif dans les Côtes d’Armor
 * [FDN](http://www.fdn.fr/), Association fournisseur d'accès à Internet depuis 1992.
@@ -155,6 +156,7 @@ Les membres de Gitoyen sont, à ce jour
 * [Mycélium](https://mycelium-fai.org/), Association fournisseur d'accès à Internet à Lille.
 * [MilkyWan](https://milkywan.fr/), Réseau associatif, expérimental, avec l'idée de combiner FAI, transitaire et hébergeur.
 * [Neutrinet](http://neutrinet.be/), Association fournisseur d'accès à Internet en Belgique.
+* [Picapo](https://picapo.net), Association loi 1901 dont l'objectif est la promotion des Œuvres libres.
 * [Rézine](http://www.rezine.org/), Association fournisseur d'accès à Internet en région grenobloise.
 * [Rhizome](https://rhizome-fai.net/), Association fournisseur d'accès à Internet sur la ville de Compiègne (60).
 * [Tetaneutral.net](http://tetaneutral.net/), Association fournisseur d'accès à Internet à Toulouse.
