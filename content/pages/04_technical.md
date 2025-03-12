@@ -3,7 +3,7 @@ Title: Côté technique
 # Liens sur Gitoyen
 
 * [Looking Glass Gitoyen](https://lg.gitoyen.net/)
-* [Mirroir Debian](http://debian.gitoyen.net/) réservé à l'AS Gitoyen (en cours de refonte…)
+* [Mirroir Debian](http://mirror.gitoyen.net/) ([status Debian](https://mirror-master.debian.org/status/mirror-status.html#&sort[results]=0-0&filter[results]=gitoyen-----------))
 * [LibreNMS](https://librenms.gitoyen.net/) statistiques réseau (accès authentifié)
 * [Smokeping](https://smokeping.gitoyen.net/) latence réseau (accès authentifié)
 * [Weathermap](https://librenms.gitoyen.net/plugins/Weathermap/output/members.png) instantané des liens réseau de Gitoyen
