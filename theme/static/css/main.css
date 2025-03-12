@@ -257,8 +257,8 @@ Header
   vertical-align: middle;
 }
 
-#banner nav li.twitter a {
-  background-image: url(../images/twitter.png);
+#banner nav li.mastodon a {
+  background-image: url(../images/mastodon.png);
 }
 
 #banner nav li.rss a {
@@ -357,8 +357,8 @@ Header
     background-position: left;
     padding-left: 30px;
   }
-  #banner nav li.twitter a:after {
-    content: "Twitter";
+  #banner nav li.mastodon a:after {
+    content: "Mastodon";
     line-height: 18px;
   }
   #banner nav li.rss a:after {
@@ -692,7 +692,7 @@ Extras
 .social a[href*='slideshare.net'] {background-image: url('../images/icons/slideshare.png');}
 .social a[href*='speakerdeck.com'] {background-image: url('../images/icons/speakerdeck.png');}
 .social a[href*='stackoverflow.com'] {background-image: url('../images/icons/stackoverflow.png');}
-.social a[href*='twitter.com'] {background-image: url('../images/icons/twitter.png');}
+.social a[href*='mamot.fr'] {background-image: url('../images/icons/mastodon.png');}
 .social a[href*='vimeo.com'] {background-image: url('../images/icons/vimeo.png');}
 .social a[href*='youtube.com'] {background-image: url('../images/icons/youtube.png');}
 

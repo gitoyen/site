@@ -31,10 +31,6 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 RSS_FEED_SUMMARY_ONLY = False
 
-# Social
-TWITTER_USERNAME = 'gitoyen'
-
-
 JINJA_FILTERS = {'is_active': is_active}
 
 THEME = './theme'

@@ -12,7 +12,6 @@
   </nav>
   {% endif %}
   <div {% if article.toc %}class="col2of3"{% else %}class="col1of1"{% endif %}>
-    {% include 'twitter.html' %}
     {% include 'article_infos.html' %}
     {{ article.content }}
   </div><!-- /.entry-content -->

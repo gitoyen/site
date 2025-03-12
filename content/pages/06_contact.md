@@ -46,12 +46,12 @@ save_as: contact.html
 </div>
 
 
-<h3>Sur Twitter</h3>
+<h3>Sur Mastodon</h3>
 <div class="row">
-<section class="cpt-twitter">
+<section class="cpt-mastodon">
 	<ul>
-		<li><a href="https://twitter.com/gitoyen">@gitoyen</a> pour la communication formelle, et les annonces.</li>
-		<li><a href="https://twitter.com/as20766">@as20766</a> plus informel.</li>
+		<li><a href="https://mamot.fr/@gitoyen">@gitoyen</a> pour la communication formelle, et les annonces.</li>
+		<li><a href="https://mstdn.fr/@as20766">@as20766</a> plus informel.</li>
 	</ul>
 </section>
 </div>
