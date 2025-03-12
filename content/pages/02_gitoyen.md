@@ -144,7 +144,7 @@ Les membres de Gitoyen sont, à ce jour
 * [Altern](http://www.altern.org/), la société de Valentin Lacambre.
 * [Aquilenet](https://www.aquilenet.fr/), Association fournisseur d'accès à Internet en Aquitaine.
 * [Baionet](https://www.baionet.fr/), Association fournisseur d'accès à Internet à Bayonne.
-* [Faibreizh](https://fai.bzh/), Fournisseur d’Accès Internet Associatif dans les Côtes d’Armor
+* <s>[Faibreizh](https://fai.bzh/)</s>, Fournisseur d’Accès Internet Associatif dans les Côtes d’Armor
 * [FDN](http://www.fdn.fr/), Association fournisseur d'accès à Internet depuis 1992.
 * [Franciliens.net](http://franciliens.net/), Association fournisseur d'accès à Internet en Ile-de-France.
 * [Globenet](http://www.globenet.org/), L'hébergeur historique des ONG, créateur du projet No-Log.
@@ -152,16 +152,18 @@ Les membres de Gitoyen sont, à ce jour
 * [Grifon](https://grifon.fr), Association fournisseur d'accès à Internet à Rennes.
 * [Hadoly](http://hadoly.fr/), Hadoly est un hébergeur associatif, militant et local, à Lyon.
 * [Ilico](http://ilico.org/), Association fournisseur d'accès à Internet en Corrèze.
-* [Lorraine Data Network](http://ldn-fai.net), Association fournisseur d'accès à Internet depuis 2010 (basé en Lorraine).
+* <s>[Lorraine Data Network](http://ldn-fai.net)</s>, Association fournisseur d'accès à Internet depuis 2010 (basé en Lorraine).
 * [L'autre.net](http://lautre.net/), Hébergeur associatif autogéré depuis 2001.
-* [Midways-Network](http://midways-network.org), Association fournisseur d'accès à Internet à Belfort.
+* [Tiersbox](https://www.tiersbox.net), Fournissant la fibre coopérative et le wifi de demain, Tiersbox installe et maintient le réseau internet des espaces en transition, des entreprises engagées et des lieux atypiques.
+* <s>[Midways-Network](http://midways-network.org)</s>, Association fournisseur d'accès à Internet à Belfort.
 * [Mycélium](https://mycelium-fai.org/), Association fournisseur d'accès à Internet à Lille.
 * [MilkyWan](https://milkywan.fr/), Réseau associatif, expérimental, avec l'idée de combiner FAI, transitaire et hébergeur.
 * [Neutrinet](http://neutrinet.be/), Association fournisseur d'accès à Internet en Belgique.
-* [Picapo](https://picapo.net), Association loi 1901 dont l'objectif est la promotion des Œuvres libres.
+* <s>[Picapo](https://picapo.net)</s>, Association loi 1901 dont l'objectif est la promotion des Œuvres libres.
 * [Rézine](http://www.rezine.org/), Association fournisseur d'accès à Internet en région grenobloise.
 * [Rhizome](https://rhizome-fai.net/), Association fournisseur d'accès à Internet sur la ville de Compiègne (60).
 * [Tetaneutral.net](http://tetaneutral.net/), Association fournisseur d'accès à Internet à Toulouse.
+* [Toile-Libre](https://www.toile-libre.org), Association qui propose des services d’hébergement internet à prix libre, en utilisant les technologies et logiciels libres.
 * [Wunner Datentechnik](http://wunner.de/), la société de Lukas Wunner.
 
 ## Les Statuts
