@@ -127,9 +127,11 @@ Gitoyen est membre ou est présent sur plusieurs points d'échange (aussi appel�
 
 * [FranceIX](https://www.franceix.net)
 * [EquinIX](https://www.equinix.com)
-* [DE-CIX](https://www.de-cix.net/en/locations/germany/frankfurt) (remote)
+* <s>[DE-CIX](https://www.de-cix.net/en/locations/germany/frankfurt)</s> (remote)
 * [AMS-IX](https://ams-ix.net) (remote)
-* [SFINX](https://www.sfinx.fr)
+* [NL-iX](https://nl-ix.net)
+* [Breizh-IX](https://www.ix.bzh/)
+* <s>[SFINX](https://www.sfinx.fr)</s>
 * [LU-CIX](https://www.lu-cix.lu) (via FranceIX)
 * [TOP-IX](https://www.top-ix.org) (via FranceIX)
 
