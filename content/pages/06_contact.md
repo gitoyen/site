@@ -45,6 +45,15 @@ save_as: contact.html
 </section>
 </div>
 
+<h3>Par Téléphone</h3>
+<div class="row">
+<section class="telephone">
+  <p class="telephone">
+	    <strong>+33 189 168 261<br></strong>
+	    Ce numéro de téléphone conduit à une messagerie vocale, sur laquelle il est possible de nous laisser un message.
+	</p>
+</section>
+</div>
 
 <h3>Sur Mastodon</h3>
 <div class="row">
