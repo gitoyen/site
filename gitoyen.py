@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#!/usr/bin/env python
 # coding: utf8
 
 import click
@@ -12,14 +12,15 @@ import datetime
 import mimetypes
 import subprocess
 
-import SimpleHTTPServer
-import SocketServer
+import http.server
+import socketserver
 
 PELICAN_CONF = 'pelicanconf.py'
 OUTPUT = 'output'
 CONTENT = 'content'
 BLOG = 'content/blog'
 THEME = './theme'
+
 
 class Config(object):
     def __init__(self):
@@ -65,7 +66,7 @@ class Application(object):
 
         if not path.exists():
             return self._not_found(start_response)
-        if path.isfile():
+        if path.is_file():
             return self._serve_file(path, start_response)
         if path_index.exists():
             return self._serve_file(path_index, start_response)
@@ -125,8 +126,8 @@ def serve(ctx, config, no_debug, no_lr, port):
     inner_build()
     if no_lr:
         with config.output:
-            Handler = SimpleHTTPServer.SimpleHTTPRequestHandler
-            httpd = SocketServer.TCPServer(('', port), Handler)
+            Handler = http.server.BaseHTTPRequestHandler
+            httpd = socketserver.TCPServer(('', port), Handler)
 
             click.echo('serving at port %d' % port)
             httpd.serve_forever()

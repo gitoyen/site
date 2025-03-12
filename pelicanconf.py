@@ -1,8 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import jinja2
 
-import filters
+
+@jinja2.pass_context
+def is_active(ctx, page):
+    return (ctx.get('output_file') == page.save_as or
+            'blog' in ctx.get('output_file') and page.slug == 'blog')
+
 
 AUTHOR = u'gitoyen'
 SITENAME = u'Gitoyen'
@@ -29,7 +35,7 @@ RSS_FEED_SUMMARY_ONLY = False
 TWITTER_USERNAME = 'gitoyen'
 
 
-JINJA_FILTERS = {'is_active': filters.is_active}
+JINJA_FILTERS = {'is_active': is_active}
 
 THEME = './theme'
 
@@ -44,7 +50,6 @@ PAGE_SAVE_AS = '{slug}.html'
 
 INDEX_SAVE_AS = 'blog.html'
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['pelican-toc']
 
 STATIC_PATHS = ['images', 'extra/favicon.ico', 'upload' ]
 
@@ -53,7 +58,7 @@ TOC = {
     'TOC_RUN': 'true'
 }
 
-MD_EXTENSIONS = ['attr_list', 'codehilite(css_class=highlight)', 'extra']
+#MD_EXTENSIONS = ['attr_list', 'codehilite(css_class=highlight)', 'extra']
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
