@@ -50,9 +50,9 @@ Nous proposons à nos membres la possibilité d'utiliser :
 ## Les tarifs
 
 Les tarifs sont mis à jour à minima tous les ans. La dernière mise à jour date
-du 15 avril 2017.
+du 18 mars 2025.
 
- * [Format PDF](upload/tarifs-2017.pdf)
+ * [Format PDF](upload/tarifs-2025.pdf)
 
 ### Quelques cas d'usage
 
