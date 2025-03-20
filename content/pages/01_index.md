@@ -82,7 +82,7 @@ save_as: index.html
     <li class="col1of2 row8">
     <span>4.</span>
     <h4>Hébergement d'équipement</h4>
-    <p>Gitoyen dispose de deux points de présence basés à Paris avec son propre espace d'hébergement d'équipements. L'un à Telehouse - Paris Voltaire et l'autre à Paris Bourse.  </p>
+    <p>Gitoyen dispose de trois points de présence basés à Paris avec son propre espace d'hébergement d'équipements. Comprenant Telehouse TH2, Equinix PA3 et la Samandre (rue Albert Marquet).  </p>
     </li>
   </ul>
   <a href="services-de-gitoyen.html" class="bouton">Le détail de nos services</a>

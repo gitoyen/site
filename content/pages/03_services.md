@@ -15,9 +15,9 @@ clients.
 
 ### Hébergement d'équipement
 
-Gitoyen dispose de deux points de présence basés à Paris avec son propre
-espace d'hébergement d'équipements. L'un à Téléhouse – Paris Voltaire – et l'autre
-à Paris Bourse.
+Gitoyen dispose de trois points de présence basés à Paris avec son propre
+espace d'hébergement d'équipements. Comprenant Téléhouse TH2, Equinix PA3 et
+la Salamandre (Rue Albert Marquet).
 
 Nous sommes en mesure de proposer de l'**hébergement d'équipements** à nos
 membres et nos clients.
