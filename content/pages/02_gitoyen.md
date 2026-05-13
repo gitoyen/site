@@ -158,6 +158,7 @@ Les membres de Gitoyen sont, à ce jour
 * <s>[Midways-Network](http://midways-network.org)</s>, Association fournisseur d'accès à Internet à Belfort.
 * [Mycélium](https://mycelium-fai.org/), Association fournisseur d'accès à Internet à Lille.
 * [MilkyWan](https://milkywan.fr/), Réseau associatif, expérimental, avec l'idée de combiner FAI, transitaire et hébergeur.
+* [Muvra](https://muvra.fr), Association de promotion et formation des réseaux Internet.
 * [Neutrinet](http://neutrinet.be/), Association fournisseur d'accès à Internet en Belgique.
 * <s>[Picapo](https://picapo.net)</s>, Association loi 1901 dont l'objectif est la promotion des Œuvres libres.
 * [Rézine](http://www.rezine.org/), Association fournisseur d'accès à Internet en région grenobloise.
