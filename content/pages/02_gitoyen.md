@@ -161,7 +161,7 @@ Les membres de Gitoyen sont, à ce jour
 * [Neutrinet](http://neutrinet.be/), Association fournisseur d'accès à Internet en Belgique.
 * <s>[Picapo](https://picapo.net)</s>, Association loi 1901 dont l'objectif est la promotion des Œuvres libres.
 * [Rézine](http://www.rezine.org/), Association fournisseur d'accès à Internet en région grenobloise.
-* [Rhizome](https://rhizome-fai.net/), Association fournisseur d'accès à Internet sur la ville de Compiègne (60).
+* <s>[Rhizome](https://rhizome-fai.net/)</s>, Association fournisseur d'accès à Internet sur la ville de Compiègne (60).
 * [Tetaneutral.net](http://tetaneutral.net/), Association fournisseur d'accès à Internet à Toulouse.
 * [Toile-Libre](https://www.toile-libre.org), Association qui propose des services d’hébergement internet à prix libre, en utilisant les technologies et logiciels libres.
 * [Wunner Datentechnik](http://wunner.de/), la société de Lukas Wunner.
